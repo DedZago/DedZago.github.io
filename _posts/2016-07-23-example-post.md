@@ -7,6 +7,17 @@ tags: [intro, beginner, jekyll, tutorial]
 comments: true
 category: blog
 ---
+Test per il math mode inline $$\displaystyle \lim_{n \to \infty} f_n(x)$$ e displaystyle
+
+$$
+    \begin{aligned}
+        f(x) = \begin{cases}
+            3x & \text{se } x \ge 10\\
+            0 &\text{altrimenti}
+        \end{cases}
+    \end{aligned}
+$$
+
 
 This is a website template created with Jekyll that is designed to be hosted on Github pages. Jekyll is a static website generator, and Github pages provides a free and easy way to host websites created using Jekyll.
 
