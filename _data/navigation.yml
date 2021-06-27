@@ -5,8 +5,11 @@
 # - title: Presentations
 #   url: /presentations/
 
-- title: Resume
-  url: /resume/
+# - title: Resume
+#   url: /resume/
 
-- title: Posts
-  url: /posts/
+- title: Notes
+  url: /notes/
+  
+# - title: Posts
+#   url: /posts/
