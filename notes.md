@@ -10,8 +10,8 @@ I combined the available scripts into a note-taking setup, which allows organizi
 # Postgraduate
 
 ### Seminars
-* [Bayesian record linkage](./files/ISBA_5_bayesianEntityResolution.pdf)
 * [An introduction to high-dimensional Bayesian variable selection](./files/ISBA_2_highDimensionalBayes.pdf)
+* [Bayesian record linkage](./files/ISBA_5_bayesianEntityResolution.pdf)
 
 # Graduate and undergraduate
 * [Modelli Statistici per Dati Economici (2020-21)](./files/modelli-economici.pdf)
