@@ -10,12 +10,12 @@ I combined the available scripts into a note-taking setup, which allows organizi
 # Postgraduate
 
 ### Seminars
-* [An introduction to high-dimensional Bayesian variable selection](./files/ISBA_2_highDimensionalBayes.pdf)
-* [Bayesian record linkage](./files/ISBA_5_bayesianEntityResolution.pdf)
+* [An introduction to high-dimensional Bayesian variable selection]({{ site.baseurl }}files/ISBA_2_highDimensionalBayes.pdf)
+* [Bayesian record linkage]({{ site.baseurl }}files/ISBA_5_bayesianEntityResolution.pdf)
 
 # Graduate and undergraduate
-* [Modelli Statistici per Dati Economici (2020-21)](./files/modelli-economici.pdf)
-* [Statistica per la Tecnologia e le Scienze (2020-21)](./files/tecnologia-industria.pdf)
-    * [Notes on stochastic approximations](./files/Fu_2015_Handbook_of_Simulation_Optimization.pdf)
+* [Modelli Statistici per Dati Economici (2020-21)]({{ site.baseurl }}files/modelli-economici.pdf)
+* [Statistica per la Tecnologia e le Scienze (2020-21)]({{ site.baseurl }}files/tecnologia-industria.pdf)
+    * [Notes on stochastic approximations]({{ site.baseurl }}files/Fu_2015_Handbook_of_Simulation_Optimization.pdf)
 <!-- * [Data Mining (2019-20)](https://mega.nz/file/mmoggCgJ#Hgaw5eVQAhqy4qiEdoeoJv-NPShN3YyouzBdtGbvVro) -->
-* [Statistica Progredito (2019-20)](./files/statistica-progredito.pdf)
+* [Statistica Progredito (2019-20)]({{ site.baseurl }}files/statistica-progredito.pdf)
