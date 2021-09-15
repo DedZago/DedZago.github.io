@@ -6,3 +6,4 @@ gem "jekyll-seo-tag"
 gem "jekyll-gist"
 gem "octopress"
 gem "kramdown-parser-gfm"
+gem 'font-awesome-sass', '~> 5.15.1'
