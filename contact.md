@@ -7,6 +7,6 @@ title: Contact
 
     <a href="https://t.me/dedezago" class="author-social" target="_blank"><i class="fa fa-fw fa-comments"></i>Telegram</a>
 
-    <a href="mailto:daniele.zago.1@studenti.unipd.it" class="author-social" target="_blank"><i class="fa fa-fw fa-envelope-square"></i>Email</a>
+    <a href="mailto:daniele.zago.1@phd.unipd.it" class="author-social" target="_blank"><i class="fa fa-fw fa-envelope-square"></i>Email</a>
 
 </div>
