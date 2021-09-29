@@ -1,18 +1,22 @@
-# Site navigation links
-- title: Home
-  url: /
+# main links links
+main:
+  # - title: "Publications"
+  #   url: /publications/
+    
+  - title: "Research"
+    url: /research/
 
-# - title: Presentations
-#   url: /presentations/
+  - title: "Notes"
+    url: /notes/
 
-# - title: Resume
-#   url: /resume/
+  # - title: "Teaching"
+  #   url: /teaching/
 
-- title: Notes
-  url: /notes/
-  
-- title: Contact
-  url: /contact/
-  
-# - title: Posts
-#   url: /posts/
+  # - title: "Software"
+  #   url: /software/
+
+  # - title: "Posts"
+  #   url: /posts/
+    
+  - title: "CV"
+    url: /cv/

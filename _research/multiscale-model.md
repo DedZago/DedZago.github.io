@@ -1,0 +1,18 @@
+---
+title: "Multiscale models"
+layout: single-portfolio
+excerpt: "<img src='/images/research/multiscale-model.png' alt=''>"
+collection: research
+order_number: 1
+header: 
+  og_image: "research/multiscale-model.png"
+---
+
+In this research project I developed, together with Antonio Canale and Marco Stefanucci, a multivariate stick-breaking multiscale mixture model based on a binary-tree expansion.
+Although the dimension of the target space is greater than one, we managed to maintain a binary tree structure by employing the Hilbert curve during the construction of the underlying stochastic processes.
+
+## Manuscript in preparation
+
+Daniele Zago, Marco Stefanucci, Antonio Canale. "Bayesian nonparametric multiscale mixture models via Hilbert-curve partitioning".
+
+[Article](){: .btn--research} [Preprint](){: .btn--research} [GitHub](https://github.com/DedZago/msMK){: .btn--research}
