@@ -7,8 +7,8 @@ header:
   og_image: "research/ecdf.png"
 ---
 
-My research interests broadly include the development of novel theoretical and computational tools for Bayesian statistical analysis.
-
+My research interests broadly include the development of flexible Bayesian methods for structured data, such as functions and curves.
+Currently, I am working on multiscale Bayesian nonparametric approaches for density estimation.
 
 <nbsp>
 
