@@ -8,7 +8,7 @@ header:
 ---
 
 My research interests broadly include the development of flexible Bayesian methods for structured data, such as functions and curves.
-Currently, I am working on multiscale Bayesian nonparametric approaches for density estimation.
+Currently, I am working on multiscale stick-breaking Bayesian nonparametric approaches for density estimation.
 
 <nbsp>
 
