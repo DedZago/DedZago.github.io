@@ -13,6 +13,9 @@ I combined the available scripts into a note-taking setup, which allows organizi
 * [An introduction to high-dimensional Bayesian variable selection](/files/pdf/notes/ISBA_2_highDimensionalBayes.pdf)
 * [Bayesian record linkage](/files/pdf/notes/ISBA_5_bayesianEntityResolution.pdf)
 
+### PhD courses
+* [Probability Theory](/files/pdf/notes/probability-theory.pdf)
+
 # Graduate and undergraduate
 * [Modelli Statistici per Dati Economici (2020-21)](/files/pdf/notes/modelli-economici.pdf)
 * [Statistica per la Tecnologia e le Scienze (2020-21)](/files/pdf/notes/tecnologia-industria.pdf)
