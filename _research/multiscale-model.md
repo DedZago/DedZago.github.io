@@ -15,7 +15,7 @@ $$
 $$
 
 Although the dimension of the target space $$\mathcal{Y} \subseteq \mathbb{R}^{d}$$ can be greater than one, we managed to maintain a binary tree structure by leveraging the Hilbert curve during the construction of the underlying stochastic processes.
-
+The building block of the proposed approach is a base measure defined by exploiting the Hilbert space-filling curve, which allows the partitioning scheme for the univariate parameter to be adapted to the multivariate case with minor adjustments.
 
 
 ## Manuscript in preparation
