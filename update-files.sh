@@ -4,7 +4,7 @@
 for d in ${HOME}/Documents/MEGA/main/2021-22/*/; do
     dname=${d#"$(dirname $d)/"}   # subtract prefix
     dname=${dname%"/"}            # subtract postfix
-    echo $dname
+    echo "--- Sending $dname ---"
     rsync -urtv --delete ${HOME}/Documents/MEGA/main/2021-22/$dname/build/main.pdf files/pdf/notes/$dname.pdf
 done
 # rsync -urtv --delete ${HOME}/Documents/MEGA/main/2021-22/functional-analysis/build/main.pdf files/pdf/notes/functional-analysis.pdf
