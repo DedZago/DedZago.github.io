@@ -14,6 +14,7 @@ I combined the available scripts into a note-taking setup, which allows organizi
 * [Bayesian record linkage](/files/pdf/notes/ISBA_5_bayesianEntityResolution.pdf)
 
 ### PhD courses
+* [Functional Analysis](/files/pdf/notes/functional-analysis.pdf)
 * [Probability Theory](/files/pdf/notes/probability-theory.pdf)
 
 # Graduate and undergraduate
