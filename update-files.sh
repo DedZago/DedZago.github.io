@@ -10,11 +10,11 @@ done
 
 SAVEIFS=$IFS
 IFS=$(echo -en "\n\b")
-for d in ${HOME}/Documents/MEGA/main/Other\ courses/*/; do
+for d in ${HOME}/Documents/MEGA/main/Other-courses/*/; do
     dname=${d#"$(dirname $d)/"}   # subtract prefix
     dname=${dname%"/"}            # subtract postfix
     echo "--- Sending $dname ---"
-    rsync -urtv --delete ${HOME}/Documents/MEGA/main/Other\ courses/$dname/build/main.pdf files/pdf/notes/$dname.pdf
+    rsync -urtv --delete ${HOME}/Documents/MEGA/main/Other-courses/$dname/build/main.pdf files/pdf/notes/$dname.pdf
 done
 IFS=$SAVEIFS
 
