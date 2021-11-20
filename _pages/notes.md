@@ -13,11 +13,11 @@ I combined the available scripts into a note-taking setup, which allows organizi
 * [An introduction to high-dimensional Bayesian variable selection](/files/pdf/notes/ISBA_2_highDimensionalBayes.pdf)
 * [Bayesian record linkage](/files/pdf/notes/ISBA_5_bayesianEntityResolution.pdf)
 
-### PhD courses
+### PhD-level courses
 * [Functional Analysis](/files/pdf/notes/functional-analysis.pdf)
 * [Probability Theory](/files/pdf/notes/probability-theory.pdf)
-* [High-dimensional probability](/files/pdf/notes/high-dimensional-probability.pdf) [(Course website)](http://www1.mat.uniroma1.it/~faggionato/HDP/hdp.html)
-<!-- * [Convex optimization](/files/pdf/notes/convex-optimization.pdf) [(Course website)](https://ee227c.github.io/) -->
+* [High-dimensional probability](/files/pdf/notes/high-dimensional-probability.pdf) -- [Course website](http://www1.mat.uniroma1.it/~faggionato/HDP/hdp.html)
+<!-- * [Convex optimization](/files/pdf/notes/convex-optimization.pdf) -- [Course website](https://ee227c.github.io/) -->
 
 # Graduate and undergraduate
 * [Modelli Statistici per Dati Economici (2020-21)](/files/pdf/notes/modelli-economici.pdf)
