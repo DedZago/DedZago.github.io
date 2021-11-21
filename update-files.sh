@@ -5,7 +5,7 @@ for d in ${HOME}/Documents/MEGA/main/2021-22/*/; do
     dname=${d#"$(dirname $d)/"}   # subtract prefix
     dname=${dname%"/"}            # subtract postfix
     echo "--- Sending $dname ---"
-    rsync -urtv --delete ${HOME}/Documents/MEGA/main/2021-22/$dname/build/main.pdf files/pdf/notes/$dname.pdf
+    rsync -urtv --delete ${HOME}/Documents/MEGA/main/2021-22/$dname/build/main.pdf ${HOME}/Documents/git/DedZago.github.io/files/pdf/notes/$dname.pdf
 done
 
 SAVEIFS=$IFS
@@ -14,10 +14,9 @@ for d in ${HOME}/Documents/MEGA/main/Other-courses/*/; do
     dname=${d#"$(dirname $d)/"}   # subtract prefix
     dname=${dname%"/"}            # subtract postfix
     echo "--- Sending $dname ---"
-    rsync -urtv --delete ${HOME}/Documents/MEGA/main/Other-courses/$dname/build/main.pdf files/pdf/notes/$dname.pdf
+    rsync -urtv --delete ${HOME}/Documents/MEGA/main/Other-courses/$dname/build/main.pdf ${HOME}/Documents/git/DedZago.github.io/files/pdf/notes/$dname.pdf
 done
 IFS=$SAVEIFS
 
 echo "--- Sending CV ---"
-rsync -urtv --delete ${HOME}/Documents/git/CV/build/zago_cv.pdf files/pdf/zago_cv.pdf
-
+rsync -urtv --delete ${HOME}/Documents/git/CV/build/zago_cv.pdf ${HOME}/Documents/git/DedZago.github.io/files/pdf/zago_cv.pdf
