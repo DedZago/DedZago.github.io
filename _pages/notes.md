@@ -23,5 +23,5 @@ I combined the available scripts into a note-taking setup, which allows organizi
 * [Modelli Statistici per Dati Economici (2020-21)](/files/pdf/notes/modelli-economici.pdf)
 * [Statistica per la Tecnologia e le Scienze (2020-21)](/files/pdf/notes/tecnologia-industria.pdf)
     * [Notes on stochastic approximations](/files/pdf/notes/Fu_2015_Handbook_of_Simulation_Optimization.pdf)
-* [Data Mining (2019-20)](/files/pdf/notes/data-mining.pdf)
+<!-- * [Data Mining (2019-20)](/files/pdf/notes/data-mining.pdf) -->
 * [Statistica Progredito (2019-20)](/files/pdf/notes/statistica-progredito.pdf)
