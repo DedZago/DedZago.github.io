@@ -19,4 +19,4 @@ done
 IFS=$SAVEIFS
 
 echo "--- Sending CV ---"
-rsync -urtv --delete ${HOME}/Documents/git/CV/build/cv_thesis.pdf ${HOME}/Documents/git/DedZago.github.io/files/pdf/zago_cv.pdf
+rsync -urtv --delete ${HOME}/Documents/git/CV/build/zago_cv_academic.pdf ${HOME}/Documents/git/DedZago.github.io/files/pdf/zago_cv.pdf
