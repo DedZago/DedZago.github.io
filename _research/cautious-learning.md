@@ -8,8 +8,8 @@ header:
   og_image: "research/cautious-learning/cautious-learning.png"
 ---
 
-![chart](/images/research/cautious-learning/cautious-learning.png)
-![parameter](/images/research/cautious-learning/thetahat.png)
+<img src="/images/research/cautious-learning/cautious-learning.png" alt="chart" width="350"/>
+<img src="/images/research/cautious-learning/thetahat.png" alt="parameter" width="350"/>
 
 ### Manuscript in preparation
 Daniele Zago, Giovanna Capizzi (2022). "*Implementation of self-starting monitoring schemes based on online parameter learning*".
