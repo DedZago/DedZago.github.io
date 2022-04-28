@@ -7,7 +7,11 @@ header:
   og_image: "research/ecdf.png"
 ---
 
-My research interests broadly include the development of flexible Bayesian methods for structured data, such as functions and curves.
+### Statistical process control ###
+Effect of parameter estimation in sequential analysis and process monitoring; developement of more efficient control charts based on intermediate approaches between fixed-parameter and self-starting methods.
+
+### Bayesian nonparametrics ###
+Developement of flexible Bayesian methods for structured data, such as functions and curves.
 Currently, I am working on multiscale stick-breaking Bayesian nonparametric approaches for density estimation.
 
 <nbsp>

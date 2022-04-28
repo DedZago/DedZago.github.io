@@ -3,7 +3,7 @@ title: "Multiscale models"
 layout: single-portfolio
 excerpt: "<img src='/images/research/multiscale-model.png' alt=''>"
 collection: research
-order_number: 1
+order_number: 2
 header: 
   og_image: "research/multiscale-model.png"
 ---
@@ -18,7 +18,7 @@ Although the dimension of the target space $$\mathcal{Y} \subseteq \mathbb{R}^{d
 The building block of the proposed approach is a base measure defined by exploiting the Hilbert space-filling curve, which allows the partitioning scheme for the univariate parameter to be adapted to the multivariate case with minor adjustments.
 
 
-## Manuscript in preparation
+### Manuscript in preparation
 
 Daniele Zago, Marco Stefanucci, Antonio Canale (2021). "*Bayesian nonparametric multiscale mixture models via Hilbert-curve partitioning*".
 
