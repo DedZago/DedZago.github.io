@@ -18,7 +18,7 @@ Via Cesare Battisti, 241
 
 
 # Research interests
-- Bayesian nonparametrics
-- Applied Bayesian modelling
+- Statistical process control
 - Functional data analysis
+- Applied Bayesian modelling
 - Computational statistics
