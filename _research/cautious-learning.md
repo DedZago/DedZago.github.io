@@ -12,6 +12,6 @@ header:
 <img src="/images/research/cautious-learning/thetahat.png" alt="parameter" width="350"/>
 
 ### Manuscript in preparation
-Daniele Zago, Giovanna Capizzi (2022). "*Implementation of self-starting monitoring schemes based on online parameter learning*".
+Daniele Zago, Giovanna Capizzi (2022). "*Improved self-starting control charts using dynamic cautious learning*".
 
 [Article](){: .btn--research} [Preprint](){: .btn--research} [GitHub](){: .btn--research}
