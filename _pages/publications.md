@@ -5,14 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
-
-{% include base_path %}
-
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
-
-<sup>*</sup> Equal authorship
+Zago, D\., Canale, A\., &amp; Stefanucci, M\. \(2022\)\.
+Bayesian multiscale mixtures of multivariate Gaussian kernels for density estimation\.
+*36th International Workshop on Statistical Modelling*\.
+Trieste, Italy: EUT Edizioni Università di Trieste\.

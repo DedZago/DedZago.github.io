@@ -18,8 +18,8 @@ Although the dimension of the target space $$\mathcal{Y} \subseteq \mathbb{R}^{d
 The building block of the proposed approach is a base measure defined by exploiting the Hilbert space-filling curve, which allows the partitioning scheme for the univariate parameter to be adapted to the multivariate case with minor adjustments.
 
 
-### Manuscript in preparation
+### Publication
 
-Daniele Zago, Marco Stefanucci, Antonio Canale (2021). "*Bayesian nonparametric multiscale mixture models via Hilbert-curve partitioning*".
+Zago, D., Canale, A., Stefanucci, M. (2022). Bayesian multiscale mixtures of multivariate Gaussian kernels for density estimation. *Proceedings of the 36th International Workshop on Statistical Modelling*.
 
-[Article](){: .btn--research} [Preprint](){: .btn--research} [GitHub](https://github.com/DedZago/msMK){: .btn--research}
+<!-- [Article](){: .btn--research} [Preprint](){: .btn--research} [GitHub](https://github.com/DedZago/msMK){: .btn--research} -->
