@@ -2,9 +2,6 @@
 layout: archive
 title: "Talks"
 permalink: /talks/
-author_profile: true
-header:
-  og_image: "research/ecdf.png"
 ---
 
 **Bayesian nonparametric multiscale mixture models via Hilbert-curve partitioning**.\

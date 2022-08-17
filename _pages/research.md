@@ -2,9 +2,6 @@
 layout: archive
 title: "Research"
 permalink: /research/
-author_profile: true
-header:
-  og_image: "research/ecdf.png"
 ---
 
 My research interests are not confined to a single topic in statistics, as a broader perspective allows borrowing of information between different fields.
