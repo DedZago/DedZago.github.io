@@ -5,7 +5,7 @@ permalink: /research/
 ---
 
 My research interests are not confined to a single topic in statistics, as a broader perspective allows borrowing of information between different fields.
-Here are listed some of the research directions that I am (or have) explored.
+Here are listed some of the research directions that I am exploring (or have explored).
 Any aspect within the following topics is highly likely to pique my interest.
 
 ### Statistical process control ###
