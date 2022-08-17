@@ -15,7 +15,7 @@ Any aspect within the following topics is highly likely to pique my interest.
 * Data fusion in process monitoring and Bayesian approaches for uncertainty quantification.
 
 ### Bayesian nonparametrics ###
-* Developement of flexible Bayesian methods for structured data, such as functions and curves.
+* Development of flexible Bayesian methods for structured data, such as functions and curves.
 * Structured Bayesian nonparametric approaches for density estimation.
 
 <nbsp>
