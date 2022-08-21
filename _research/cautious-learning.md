@@ -27,14 +27,14 @@ With adaptive estimators, **early and small shifts go undetected** from the cont
 We propose an improvement over both approaches by choosing a "middle ground", namely an estimator that alternates between the fixed-parameter and adaptive estimator approaches, depending on tentative evidence of parameter shift.
 We term this approach **cautious learning** (CL) in order to underline how the parameter updates are stopped to prevent biasing the estimates.
 
-| <img src="/images/research/cautious-learning/cautious-learning.png" alt="chart"/>| <img src="/images/research/cautious-learning/thetahat.png" alt="parameter"/>| 
+| <img src="/images/research/cautious-learning/cautious-learning.png" alt="chart" width="350"/>| <img src="/images/research/cautious-learning/thetahat.png" alt="parameter" width="350"/>| 
 |:--:|:--:|
 | *Control chart with alarm limits and warning region* | *Parameter estimates and window of opportunity*
 
 
 Combining the proposed approach with the GICP methodology for designing control limits results in a considerably higher detection power for early and small shifts, while maintaining similar performance to the adaptive estimator for large and delayed shifts.
 
-| <img src="/images/research/cautious-learning/IC.png" alt="chart"/>| <img src="/images/research/cautious-learning/delta=0.35.png" alt="parameter"/>| 
+| <img src="/images/research/cautious-learning/IC.png" alt="chart" width="350"/>| <img src="/images/research/cautious-learning/delta=0.35.png" alt="parameter" width="350"/>| 
 |:--:|:--:|
 | *In-control performance (CARL)* | *Out-of-control performance (CARL)*
 
