@@ -8,6 +8,11 @@ header:
   og_image: "research/cautious-learning/cautious-learning.png"
 ---
 
+### Manuscript in preparation
+Zago D., Capizzi G. (2022). Improving control chart performance with cautious parameter learning.
+
+<!-- [Article](){: .btn--research} [Preprint](){: .btn--research} [GitHub](){: .btn--research} -->
+
 ### Description ###
 
 Control charts based on estimated model parameters are usually applied with the following approaches:
@@ -34,8 +39,3 @@ Combining the proposed approach with the GICP methodology for designing control 
 | *In-control performance (CARL)* | *Out-of-control performance (CARL)*
 
 
-
-### Manuscript in preparation
-Zago D., Capizzi G. (2022). Improving control chart performance with cautious parameter learning.
-
-<!-- [Article](){: .btn--research} [Preprint](){: .btn--research} [GitHub](){: .btn--research} -->
