@@ -29,7 +29,7 @@ We term this approach **cautious learning** (CL) in order to underline how the p
 
 | <img src="/images/research/cautious-learning/shaded-regions-cl.png" alt="chart" width="350"/>| <img src="/images/research/cautious-learning/thetahat.png" alt="parameter" width="350"/>| 
 |:--:|:--:|
-| *Control chart with alarm limit (**red**) and warning region* (**yellow**) | *Parameter estimates and window of opportunity (**gray**)*
+| *Control chart with alarm limit (**red**) and warning region (**yellow**)* | *Parameter estimates and window of opportunity (**gray**)*
 
 
 Combining the proposed approach with the GICP methodology for designing control limits results in a considerably higher detection power for early and small shifts, while maintaining similar performance to the adaptive estimator for large and delayed shifts.
