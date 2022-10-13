@@ -1,7 +1,7 @@
 ---
 title: "Cautious learning"
 layout: single-portfolio
-excerpt: "<img src='/images/research/cautious-learning/cautious-learning.png' alt=''>"
+excerpt: "<img src='/images/research/cautious-learning/thetahat.png' alt=''>"
 collection: research
 order_number: 1
 header: 
