@@ -13,6 +13,7 @@ Any aspect within the following topics is highly likely to pique my interest.
 * Development of more efficient control charts based on modification of parameter learning methods.
 * High-dimensional and machine-learning-based statistical process control.
 * Data fusion in process monitoring and Bayesian approaches for uncertainty quantification.
+* Monitoring of high-dimensional data streams based on partial observation, and adaptive sampling techniques inspired from bandit algorithms.
 
 ### Bayesian nonparametrics ###
 * Development of flexible Bayesian methods for structured data, such as functions and curves.
