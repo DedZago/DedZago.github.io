@@ -16,7 +16,7 @@ I combined the available scripts into a note-taking setup, which allows organizi
 ### PhD-level courses
 * [Functional Analysis](/files/pdf/notes/functional-analysis.pdf)
 * [Probability Theory](/files/pdf/notes/probability-theory.pdf)
-* [Applied multivariate techniques](/files/pdf/notes/applied-multivariate-techniques.pdf)
+* [Applied Multivariate Techniques](/files/pdf/notes/applied-multivariate-techniques.pdf)
 <!-- * [Convex optimization](/files/pdf/notes/convex-optimization.pdf) -- [Course website](https://ee227c.github.io/) -->
 * [Specialist courses](/files/pdf/notes/specialist-courses.pdf)
 * [High-dimensional probability](/files/pdf/notes/high-dimensional-probability.pdf) -- [Course website](http://www1.mat.uniroma1.it/~faggionato/HDP/hdp.html)
