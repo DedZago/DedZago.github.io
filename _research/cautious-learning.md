@@ -3,15 +3,14 @@ title: "Cautious learning"
 layout: single-portfolio
 excerpt: "<img src='/images/research/cautious-learning/thetahat.png' alt=''>"
 collection: research
-order_number: 1
+order_number: 2
 header: 
   og_image: "research/cautious-learning/cautious-learning.png"
 ---
 
 ### Manuscript in preparation
-Zago D., Capizzi G. (202+). Improving control chart performance with cautious parameter learning.
-
-<!-- [Article](){: .btn--research} [Preprint](){: .btn--research} [GitHub](){: .btn--research} -->
+Zago D., Capizzi G. (202+). Alternative parameter learning schemes for monitoring Poisson count data. *Submitted*.
+<!-- [Article](){: .btn--research} [Preprint](){: .btn--research}--> [GitHub](https://github.com/DedZago/CautiousLearning/){: .btn--research}
 
 ### Description ###
 
