@@ -21,9 +21,9 @@ I combined the available scripts into a note-taking setup, which allows organizi
 * [Specialist courses](/files/pdf/notes/specialist-courses.pdf)
 * [High-dimensional probability](/files/pdf/notes/high-dimensional-probability.pdf) -- [Course website](http://www1.mat.uniroma1.it/~faggionato/HDP/hdp.html)
 
-<!-- # Graduate and undergraduate -->
-<!-- * [Modelli Statistici per Dati Economici (2020-21)](/files/pdf/notes/modelli-economici.pdf) -->
-<!-- * [Statistica per la Tecnologia e le Scienze (2020-21)](/files/pdf/notes/tecnologia-industria.pdf) -->
+# Graduate and undergraduate
+* [Modelli Statistici per Dati Economici (2020-21)](/files/pdf/notes/modelli-economici.pdf)
+* [Statistica per la Tecnologia e le Scienze (2020-21)](/files/pdf/notes/tecnologia-industria.pdf)
 <!--     * [Notes on stochastic approximations](/files/pdf/notes/Fu_2015_Handbook_of_Simulation_Optimization.pdf) -->
 <!-- <!-1- * [Data Mining (2019-20)](/files/pdf/notes/data-mining.pdf) -1-> -->
 <!-- * [Statistica Progredito (2019-20)](/files/pdf/notes/statistica-progredito.pdf) -->
