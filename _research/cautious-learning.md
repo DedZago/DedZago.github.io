@@ -10,6 +10,7 @@ header:
 
 ### Manuscript in preparation
 Zago D., Capizzi G. (202+). Alternative parameter learning schemes for monitoring Poisson count data. *Submitted*.
+
 <!-- [Article](){: .btn--research} [Preprint](){: .btn--research}--> [GitHub](https://github.com/DedZago/CautiousLearning/){: .btn--research}
 
 ### Description ###
