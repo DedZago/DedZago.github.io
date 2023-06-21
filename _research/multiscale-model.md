@@ -1,9 +1,10 @@
 ---
 title: "Multiscale models"
 layout: single-portfolio
-excerpt: "<img src='/images/research/multiscale-model.png' alt=''>"
+excerpt: "<img src='/images/research/multiscale-model.png'>"
 collection: research
-order_number: 3
+status: Published (2022, 36th International Workshop on Statistical Modelling.)
+order_number: 1002
 header: 
   og_image: "research/multiscale-model.png"
 ---
@@ -15,7 +16,7 @@ Zago, D., Canale, A., Stefanucci, M. (2022). Bayesian multiscale mixtures of mul
 <!-- [Article](){: .btn--research} [Preprint](){: .btn--research} [GitHub](https://github.com/DedZago/msMK){: .btn--research} -->
 
 ### Description
-In this research project I developed, together with Antonio Canale and Marco Stefanucci, a Bayesian multivariate stick-breaking multiscale mixture model based on a binary-tree expansion,
+In this research project we developed a Bayesian multivariate stick-breaking multiscale mixture model based on a binary-tree expansion,
 
 $$
   f(y) = \sum_{s=0}^{\infty }\sum_{h=1}^{2^{s}} \pi_{s,h} \mathcal{K}(y | \mathbf{\vartheta}_{s,h}).

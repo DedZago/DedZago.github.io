@@ -1,9 +1,9 @@
 <!-- --- -->
 <!-- title: "Adaptive contrasts" -->
 <!-- layout: single-portfolio -->
-<!-- excerpt: "<img src='/images/research/adaptive-rtc/rf.png' alt=''>" -->
+<!-- excerpt: "<img src='/images/research/adaptive-rtc/rf.png'>" -->
 <!-- collection: research -->
-<!-- order_number: 1 -->
+<!-- order_number: 1000 -->
 <!-- header: --> 
 <!--   og_image: "/images/research/adaptive-rtc/rf.png" -->
 <!-- --- -->

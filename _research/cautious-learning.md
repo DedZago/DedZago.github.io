@@ -1,17 +1,19 @@
 ---
 title: "Cautious learning"
 layout: single-portfolio
-excerpt: "<img src='/images/research/cautious-learning/thetahat.png' alt=''>"
+excerpt: "<img src='/images/research/cautious-learning/thetahat.png' >"
+description:
 collection: research
-order_number: 2
+status: Submitted
+order_number: 1001
 header: 
   og_image: "research/cautious-learning/cautious-learning.png"
 ---
 
 ### Manuscript in preparation
-Zago D., Capizzi G. (202+). Alternative parameter learning schemes for monitoring Poisson count data. *Submitted*.
+Zago D., Capizzi G. (202+). Alternative parameter learning schemes for monitoring process stability. *Submitted*.
 
-<!-- [Article](){: .btn--research} [Preprint](){: .btn--research}--> [GitHub](https://github.com/DedZago/CautiousLearning/){: .btn--research}
+<!-- [Article](){: .btn--research} [Preprint](){: .btn--research} [GitHub](https://github.com/DedZago/CautiousLearning/){: .btn--research} -->
 
 ### Description ###
 
