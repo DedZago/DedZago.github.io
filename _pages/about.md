@@ -1,7 +1,7 @@
 ---
 permalink: /
-title: "Home"
-excerpt: "Home"
+title: "About"
+excerpt: "About"
 author_profile: true
 redirect_from: 
   - /about/
@@ -16,9 +16,8 @@ Via Cesare Battisti, 241
 35121 Padova, Italy
 
 
-
 # Research interests
 - Statistical process control
 - Functional data analysis
-- Applied Bayesian modelling
 - Computational statistics
+- Numerical analysis
