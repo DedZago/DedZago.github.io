@@ -15,9 +15,11 @@ Ph.D. student in [Statistical Sciences](https://www.stat.unipd.it/)
 Via Cesare Battisti, 241  
 35121 Padova, Italy
 
-
 # Research interests
-- Statistical process control
-- Functional data analysis
-- Computational statistics
-- Numerical analysis
+My research area mainly focuses on the development and application of statistical methods to monitor the stability of sequential data.
+Within this broad field, the following topics are my favourites:
+
+- **Statistical process control**: effect of parameter estimation, efficient control limit calculation, control chart tuning, monitoring of partial observations, monitoring of complex data.
+- **Numerical analysis**: optimization of stochastic functions, algorithm for doubly-stochastic constrained optimization.
+- **Functional data analysis**: analysis and process monitoring of parametric and nonparametric curves.
+- **Computational statistics**: algorithm efficiency and flexible code, solving computational bottlenecks in numerical methods.
