@@ -23,7 +23,9 @@
         <h2 style="vertical-align:top">
           <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
         </h2>
-          {% if post.status %}<i class="page__meta" style="display:inline-block; padding-left:-100px"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ post.status | Ongoing }}</i>{% endif %}
+          {% if post.status %}<i class="page__meta" style="display:inline-block; padding-left:-100px"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ post.status }}</i>
+          {% else %}<i class="page__meta" style="display:inline-block; padding-left:-100px"><i class="fa fa-clock-o" aria-hidden="true"></i> Ongoing </i>
+          {% endif %}
           </div>
       </p>
   </article>
