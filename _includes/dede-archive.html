@@ -26,6 +26,25 @@
           {% if post.status %}<i class="page__meta" style="display:inline-block; padding-left:-100px"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ post.status }}</i>
           {% else %}<i class="page__meta" style="display:inline-block; padding-left:-100px"><i class="fa fa-clock-o" aria-hidden="true"></i> Ongoing </i>
           {% endif %}
+          <h6>
+          {% if post.pdf and post.preprint %}
+          <i><button class="btn--research" onclick="window.location.href='{{ post.pdf }}';">Pdf</button></i>
+          {%elsif post.pdf %}
+          <i><button class="btn--research" onclick="window.location.href='{{ post.pdf }}';">Pdf</button></i>
+          {%elsif post.preprint%}
+          <i><button class="btn--research" onclick="window.location.href='{{ post.preprint }}';">Preprint</button></i>
+          {% endif %}
+          {% if post.code %}
+          <i><button class="btn--research" onclick="window.location.href='{{ post.code }}';">Code</button></i>
+          {% endif %}
+          {% if post.poster %}
+          <i><button class="btn--research" onclick="window.location.href='{{ post.poster }}';">Poster</button></i>
+          {% endif %}
+          {% if post.slides %}
+          <i><button class="btn--research" onclick="window.location.href='{{ post.slides }}';">Slides</button></i>
+          {% endif %}
+          </h6>
+          <!-- {% include button.html button_name="My Button" button_class="btn--research" url="http://www.google.com" %} -->          
           </div>
       </p>
   </article>

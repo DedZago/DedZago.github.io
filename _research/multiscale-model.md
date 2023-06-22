@@ -4,6 +4,11 @@ layout: single-portfolio
 excerpt: "<img src='/images/research/multiscale-model.png'>"
 collection: research
 status: Published (2022, 36th International Workshop on Statistical Modelling.)
+code: 
+poster: files/msmk.pdf
+slides:
+pdf:
+preprint:
 order_number: 1002
 header: 
   og_image: "research/multiscale-model.png"
