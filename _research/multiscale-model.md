@@ -14,6 +14,8 @@ header:
   og_image: "research/multiscale-model.png"
 ---
 
+{% if page.pdf and page.preprint %}<button class="btn--research" onclick="window.location.href='{{ page.pdf }}';">Pdf</button> {%elsif page.pdf %} <button class="btn--research" onclick="window.location.href='{{ page.pdf }}';">Pdf</button> {%elsif page.preprint %} <button class="btn--research" onclick="window.location.href='{{ page.preprint }}';">Preprint</button> {% endif %} {% if page.code %}<button class="btn--research" onclick="window.location.href='{{ page.code }}';">Code</button>{% endif %} {% if page.poster %}<button class="btn--research" onclick="window.location.href='{{ page.poster }}';">Poster</button>{% endif %} {% if page.slides %} <button class="btn--research" onclick="window.location.href='{{ page.slides }}';">Slides</button> {% endif %}
+
 ### Publication
 
 Zago, D., Canale, A., Stefanucci, M. (2022). Bayesian multiscale mixtures of multivariate Gaussian kernels for density estimation. *Proceedings of the 36th International Workshop on Statistical Modelling*.
