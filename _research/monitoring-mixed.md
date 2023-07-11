@@ -1,7 +1,7 @@
 ---
 title: "Mixed-data monitoring"
 layout: single-portfolio
-excerpt: "<img src='/images/research/mixed-data/process.svg' >"
+excerpt: "<img src='/images/research/mixed-data/process-crop.png' >"
 description:
 collection: research
 status: 

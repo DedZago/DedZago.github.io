@@ -136,6 +136,7 @@ GEM
       jekyll (~> 3.0)
     jekyll-feed (0.15.1)
       jekyll (>= 3.7, < 5.0)
+    jekyll-figure (0.1.0)
     jekyll-gist (1.5.0)
       octokit (~> 4.2)
     jekyll-github-metadata (2.13.0)
@@ -277,7 +278,8 @@ DEPENDENCIES
   github-pages
   hawkins
   jekyll-feed
+  jekyll-figure
   jekyll-sitemap
 
 BUNDLED WITH
-   2.2.27
+   2.3.25

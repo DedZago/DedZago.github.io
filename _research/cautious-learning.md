@@ -6,11 +6,10 @@ description:
 collection: research
 status: Submitted
 <!-- code: https://github.com/DedZago/CautiousLearning/ -->
-poster: https://800years.stat.unipd.it/wp-content/uploads/2022/09/poster_zago.pdf
+poster: /research/files/cautious-learning/poster.pdf
 slides:
 pdf:
 preprint:
-
 order_number: 1001
 ---
 
