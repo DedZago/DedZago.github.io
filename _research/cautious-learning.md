@@ -20,7 +20,7 @@ Zago D., Capizzi G. (202+). Alternative parameter learning schemes for monitorin
 
 ### Description ###
 
-Control charts based on estimated model parameters are usually applied with the following approaches:
+Control chart statistics $C_{t}$ based on estimated model parameters are usually applied with the following approaches:
 * **Fixed-parameter** (FE): the model parameter is held fixed after estimation on an in-control dataset.
 * **Adaptive estimator** (AE): the model parameter is updated after having checked for potential OC situations.
 
@@ -29,12 +29,12 @@ With fixed estimators, **large amounts of data** are required to be effective in
 With adaptive estimators, **early and small shifts go undetected** from the control chart and OC observations bias the estimate, thereby reducing performance.
 
 ### Cautious learning ###
-We propose an improvement over both approaches by choosing a "middle ground", namely an estimator that alternates between the fixed-parameter and adaptive estimator approaches, depending on tentative evidence of parameter shift.
-We term this approach **cautious learning** (CL) in order to underline how the parameter updates are stopped to prevent biasing the estimates.
+We propose an improvement over both approaches by choosing a "middle ground", namely an estimator that alternates between the fixed-parameter and adaptive estimator approaches.
+We term this approach **cautious learning** (CL) in order to underline how the parameter updates are stopped to prevent biasing the estimates,
 
 $$
   \widehat{\theta}_{t} = \begin{cases}
-      \widehat{\theta}(\bm{y}_{1:t}) & \text{if $C_{t} > 0$}\\
+      \widehat{\theta}(\mathbf{y}_{1:t}) & \text{if $C_{t} > 0$}\\
       \widehat{\theta}_{t-1} & \text{if $C_{t} > 0$}\\
   \end{cases}
 $$
