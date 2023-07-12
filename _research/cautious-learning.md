@@ -35,7 +35,7 @@ We term this approach **cautious learning** (CL) in order to underline how the p
 $$
   \widehat{\theta}_{t} = \begin{cases}
       \widehat{\theta}(\mathbf{y}_{1:t}) & \text{if $C_{t} > 0$}\\
-      \widehat{\theta}_{t-1} & \text{if $C_{t} > 0$}\\
+      \widehat{\theta}_{t-1} & \text{if $C_{t} = 0$}\\
   \end{cases}
 $$
 
