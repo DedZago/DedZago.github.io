@@ -32,9 +32,12 @@ With adaptive estimators, **early and small shifts go undetected** from the cont
 We propose an improvement over both approaches by choosing a "middle ground", namely an estimator that alternates between the fixed-parameter and adaptive estimator approaches, depending on tentative evidence of parameter shift.
 We term this approach **cautious learning** (CL) in order to underline how the parameter updates are stopped to prevent biasing the estimates.
 
-| <img src="/images/research/cautious-learning/shaded-regions-cl.png" alt="chart" width="350"/>| <img src="/images/research/cautious-learning/thetahat.png" alt="parameter" width="350"/>| 
-|:--:|:--:|
-| *Control chart with alarm limit (**red**) and warning region (**yellow**)* | *Parameter estimates and window of opportunity (**gray**)*
+$$
+  \widehat{\theta}_{t} = \begin{cases}
+      \widehat{\theta}(\bm{y}_{1:t}) & \text{if $C_{t} > 0$}\\
+      \widehat{\theta}_{t-1} & \text{if $C_{t} > 0$}\\
+  \end{cases}
+$$
 
 
 Combining the proposed approach with the GICP methodology for designing control limits results in a considerably higher detection power for early and small shifts, while maintaining similar performance to the adaptive estimator for large and delayed shifts.
