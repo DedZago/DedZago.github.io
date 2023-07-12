@@ -41,6 +41,7 @@ $$
 
 Comparing this algorithm to more traditional optimization methods, such as grid search and Nelder-Mead optimization, shows a remarkable improvement in computational efficiency.
 
-{% figure caption:"Computational cost of finding the optimum for a MEWMA chart with $d = 1, 2,$ and 3 smoothing constants." %}
-![Dimension comparison](/images/research/stoch-approx/dimension-comparison.png)
-{% endfigure %}
+<figure>
+  <img src="/images/research/stoch-approx/dimension-comparison.png" alt="Dimension comparison"/>
+  <figcaption>Computational cost of finding the optimum for a MEWMA chart with $d = 1, 2,$ and 3 smoothing constants.</figcaption>
+</figure>
