@@ -4,7 +4,7 @@ layout: single-portfolio
 excerpt: "<img src='/images/research/cautious-learning/thetahat.png' >"
 description:
 collection: research
-status: Submitted
+status: Manuscript accepted
 <!-- code: https://github.com/DedZago/CautiousLearning/ -->
 poster: /research/files/cautious-learning/poster.pdf
 slides:
@@ -14,15 +14,15 @@ order_number: 1001
 ---
 
 ### Manuscript in preparation
-Zago D., Capizzi G. (202+). Alternative parameter learning schemes for monitoring process stability. *Submitted*.
+Zago D., Capizzi G. (202+). Alternative parameter learning schemes for monitoring process stability. *Manuscript accepted*.
 
 {% if page.pdf and page.preprint %}<button class="btn--research" onclick="window.location.href='{{ page.pdf }}';">Pdf</button> {%elsif page.pdf %} <button class="btn--research" onclick="window.location.href='{{ page.pdf }}';">Pdf</button> {%elsif page.preprint %} <button class="btn--research" onclick="window.location.href='{{ page.preprint }}';">Preprint</button> {% endif %} {% if page.code %}<button class="btn--research" onclick="window.location.href='{{ page.code }}';">Code</button>{% endif %} {% if page.poster %}<button class="btn--research" onclick="window.location.href='{{ page.poster }}';">Poster</button>{% endif %} {% if page.slides %} <button class="btn--research" onclick="window.location.href='{{ page.slides }}';">Slides</button> {% endif %}
 
 ### Description ###
 
-Control chart statistics $C_{t}$ based on estimated model parameters are usually applied with the following approaches:
-* **Fixed-parameter** (FE): the model parameter is held fixed after estimation on an in-control dataset.
-* **Adaptive estimator** (AE): the model parameter is updated after having checked for potential OC situations.
+Control chart statistics $C_{t}$ that are based on estimated model parameters are usually applied with one of the following approaches:
+* **Fixed-parameter** (FE): the model parameters are held fixed after estimation on an in-control dataset.
+* **Adaptive estimator** (AE): the model parameters are recursively updated after having checked for potential OC situations.
 
 In this work, we formally show how these approaches are opposite examples of **bias-variance trade-off**, and as such they suffer from complementary issues.
 With fixed estimators, **large amounts of data** are required to be effective in detecting shifts.
