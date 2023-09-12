@@ -4,7 +4,7 @@ layout: single-portfolio
 excerpt: "<img src='/images/research/cautious-learning/thetahat.png' >"
 description:
 collection: research
-status: Manuscript accepted
+status: In press
 <!-- code: https://github.com/DedZago/CautiousLearning/ -->
 poster: /research/files/cautious-learning/poster.pdf
 slides:
@@ -14,7 +14,7 @@ order_number: 1001
 ---
 
 ### Manuscript in preparation
-Zago D., Capizzi G. (202+). Alternative parameter learning schemes for monitoring process stability. *Manuscript accepted*.
+Zago D., Capizzi G. (202+). Alternative parameter learning schemes for monitoring process stability. *In press*.
 
 {% if page.pdf and page.preprint %}<button class="btn--research" onclick="window.location.href='{{ page.pdf }}';">Pdf</button> {%elsif page.pdf %} <button class="btn--research" onclick="window.location.href='{{ page.pdf }}';">Pdf</button> {%elsif page.preprint %} <button class="btn--research" onclick="window.location.href='{{ page.preprint }}';">Preprint</button> {% endif %} {% if page.code %}<button class="btn--research" onclick="window.location.href='{{ page.code }}';">Code</button>{% endif %} {% if page.poster %}<button class="btn--research" onclick="window.location.href='{{ page.poster }}';">Poster</button>{% endif %} {% if page.slides %} <button class="btn--research" onclick="window.location.href='{{ page.slides }}';">Slides</button> {% endif %}
 
