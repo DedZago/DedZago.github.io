@@ -5,6 +5,7 @@ excerpt: "<img src='/images/research/BA-bisection/Bisection_method.png' >"
 description:
 collection: research
 status: Ongoing
+article:
 code:
 poster: 
 slides:

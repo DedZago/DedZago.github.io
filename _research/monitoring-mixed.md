@@ -5,6 +5,7 @@ excerpt: "<img src='/images/research/mixed-data/process-crop.png' >"
 description:
 collection: research
 status: 
+article:
 code: 
 poster: 
 slides:

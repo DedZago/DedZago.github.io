@@ -5,6 +5,7 @@ excerpt: "<img src='/images/research/stoch-approx/contour-dark.png' >"
 description:
 collection: research
 status: Submitted
+article: 
 code:
 poster: 
 slides:
