@@ -17,7 +17,7 @@ order_number: 1000
 ### Manuscript in preparation
 Zago D., Capizzi G., Qiu P. (202+). Optimal Constrained Design of Control Charts Using Stochastic Approximations. *Submitted*.
 
-{% if page.pdf and page.preprint %}<button class="btn--research" onclick="window.location.href='{{ page.pdf }}';">Pdf</button> {%elsif page.pdf %} <button class="btn--research" onclick="window.location.href='{{ page.pdf }}';">Pdf</button> {%elsif page.preprint %} <button class="btn--research" onclick="window.location.href='{{ page.preprint }}';">Preprint</button> {% endif %} {% if page.code %}<button class="btn--research" onclick="window.location.href='{{ page.code }}';">Code</button>{% endif %} {% if page.poster %}<button class="btn--research" onclick="window.location.href='{{ page.poster }}';">Poster</button>{% endif %} {% if page.slides %} <button class="btn--research" onclick="window.location.href='{{ page.slides }}';">Slides</button> {% endif %}
+{% include markdown-header.md %}
 
 ### Description ###
 

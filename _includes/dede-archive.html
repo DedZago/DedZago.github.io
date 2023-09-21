@@ -28,22 +28,22 @@
           {% endif %}
           <h6>
           {% if post.article %}
-          <i><button class="btn--research" onclick="window.location.href='{{ post.article }}';">Article</button></i>
+          <i><button class="btn--research" onclick="window.open('{{ post.article }}','_blank');">Article</button></i>
           {%elsif post.pdf and post.preprint %}
-          <i><button class="btn--research" onclick="window.location.href='{{ post.pdf }}';">Pdf</button></i>
+          <i><button class="btn--research" onclick="window.open('{{ post.pdf }}', '_blank');">Pdf</button></i>
           {%elsif post.pdf %}
-          <i><button class="btn--research" onclick="window.location.href='{{ post.pdf }}';">Pdf</button></i>
+          <i><button class="btn--research" onclick="window.open('{{ post.pdf }}', '_blank');">Pdf</button></i>
           {%elsif post.preprint%}
-          <i><button class="btn--research" onclick="window.location.href='{{ post.preprint }}';">Preprint</button></i>
+          <i><button class="btn--research" onclick="window.open('{{ post.preprint }}', '_blank');">Preprint</button></i>
           {% endif %}
           {% if post.code %}
-          <i><button class="btn--research" onclick="window.location.href='{{ post.code }}';">Code</button></i>
+          <i><button class="btn--research" onclick="window.open('{{ post.code }}', '_blank');">Code</button></i>
           {% endif %}
           {% if post.poster %}
-          <i><button class="btn--research" onclick="window.location.href='{{ post.poster }}';">Poster</button></i>
+          <i><button class="btn--research" onclick="window.open('{{ post.poster }}', '_blank');">Poster</button></i>
           {% endif %}
           {% if post.slides %}
-          <i><button class="btn--research" onclick="window.location.href='{{ post.slides }}';">Slides</button></i>
+          <i><button class="btn--research" onclick="window.open('{{ post.slides }}', '_blank');">Slides</button></i>
           {% endif %}
           </h6>
           <!-- {% include button.html button_name="My Button" button_class="btn--research" url="http://www.google.com" %} -->          
