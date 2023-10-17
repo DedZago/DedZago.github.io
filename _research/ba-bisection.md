@@ -1,5 +1,5 @@
 ---
-title: "Bootstrap-Assisted Bisection"
+title: "Bootstrap-assisted bisection"
 layout: single-portfolio
 excerpt: "<img src='/images/research/BA-bisection/Bisection_method.png' >"
 description:

@@ -1,5 +1,5 @@
 ---
-title: "Stochastic Approximations"
+title: "Stochastic approximations"
 layout: single-portfolio
 excerpt: "<img src='/images/research/stoch-approx/contour-dark.png' >"
 description:
