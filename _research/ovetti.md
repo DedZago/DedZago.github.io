@@ -15,7 +15,7 @@ order_number: 998
 ---
 
 ### Manuscript in preparation
-Bonacina, S., Zago, D., Capizzi, G., Colosimo, B. M. (2023). Statistical process monitoring of isolated and persistent defects in complex geometrical shapes. [arXiv:2310.12876v1](https://arxiv.org/abs/2310.12876v1)
+Bonacina S., Zago D., Capizzi G., Colosimo B. M. (2023). Statistical process monitoring of isolated and persistent defects in complex geometrical shapes. [arXiv:2310.12876v1](https://arxiv.org/abs/2310.12876v1)
 
 {% include markdown-header.md %}
 
