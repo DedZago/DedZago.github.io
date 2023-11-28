@@ -2,6 +2,15 @@
 title: "Cautious learning"
 layout: single-portfolio
 excerpt: "<img src='/images/research/cautious-learning/thetahat.png' >"
+gallery:
+  - url: research/cautious-learning/IC.png
+    image_path: research/cautious-learning/IC.png
+    alt: "In-control performance (CARL)"
+    title: "In-control performance (CARL)"
+  - url: research/cautious-learning/delta=0.35.png
+    image_path: research/cautious-learning/delta=0.35.png
+    alt: "Out-of-control performance (CARL)"
+    title: "Out-of-control performance (CARL)"
 description:
 collection: research
 status: Published (Quality Engineering)
@@ -43,8 +52,4 @@ $$
 
 Combining the proposed approach with the GICP methodology for designing control limits results in a considerably higher detection power for early and small shifts, while maintaining similar performance to the adaptive estimator for large and delayed shifts.
 
-| <img src="/images/research/cautious-learning/IC.png" alt="chart" width="350"/>| <img src="/images/research/cautious-learning/delta=0.35.png" alt="parameter" width="350"/>| 
-|:--:|:--:|
-| *In-control performance (CARL)* | *Out-of-control performance (CARL)*
-
-
+{% include gallery %}
