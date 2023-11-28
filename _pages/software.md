@@ -19,7 +19,7 @@ gallery:
 
 ___________________________________________
 
-## StatisticalProcessMonitoring.jl [![Build status](https://github.com/DedZago/StatisticalProcessMonitoring.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/DedZago/StatisticalProcessMonitoring.jl/actions/workflows/CI.yml?query=branch%3Amain) [![codecov](https://codecov.io/gh/DedZago/StatisticalProcessMonitoring.jl/graph/badge.svg?token=F1KFUFLD9A)](https://codecov.io/gh/DedZago/StatisticalProcessMonitoring.jl) [![Documentation](https://img.shields.io/badge/docs-dev-blue.svg)](https://DedZago.github.io/StatisticalProcessMonitoring.jl/dev/)
+## [StatisticalProcessMonitoring.jl](https://github.com/DedZago/StatisticalProcessMonitoring.jl) [![Build status](https://github.com/DedZago/StatisticalProcessMonitoring.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/DedZago/StatisticalProcessMonitoring.jl/actions/workflows/CI.yml?query=branch%3Amain) [![codecov](https://codecov.io/gh/DedZago/StatisticalProcessMonitoring.jl/graph/badge.svg?token=F1KFUFLD9A)](https://codecov.io/gh/DedZago/StatisticalProcessMonitoring.jl) [![Documentation](https://img.shields.io/badge/docs-dev-blue.svg)](https://DedZago.github.io/StatisticalProcessMonitoring.jl/dev/)
 
 **StatisticalProcessMonitoring.jl** is a comprehensive Julia package for Statistical Process Monitoring, which provides users with tools for monitoring the stability of sequential processes.
 
