@@ -4,7 +4,7 @@ layout: single-portfolio
 excerpt: "<img src='/images/research/BA-bisection/Bisection_method.png' >"
 description:
 collection: research
-status: Ongoing
+status: Submitted
 article:
 code:
 poster: 
@@ -15,7 +15,7 @@ order_number: 999
 ---
 
 ### Manuscript in preparation
-Zago D., Capizzi G., Qiu P. (202+). An Improved Bisection-type Algorithm for Control Chart Calibration. *Manuscript in preparation*.
+Zago D., Capizzi G., Qiu P. (202+). An Improved Bisection-type Algorithm for Control Chart Calibration. *Submitted*.
 
 {% include markdown-header.md %}
 
