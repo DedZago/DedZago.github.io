@@ -35,7 +35,7 @@ To install and use the latest release in Julia:
 
 ```julia
 using Pkg
-Pkg.add("https://github.com/DedZago/StatisticalProcessMonitoring.jl")
+Pkg.add("StatisticalProcessMonitoring")
 using StatisticalProcessMonitoring
 ```
 
