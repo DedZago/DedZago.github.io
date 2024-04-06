@@ -4,7 +4,7 @@ layout: single-portfolio
 excerpt: "<img src='/images/research/stoch-approx/contour-dark.png' >"
 description:
 collection: research
-status: Submitted
+status: Published (Journal of Quality Technology)
 article: 
 code:
 poster: 
