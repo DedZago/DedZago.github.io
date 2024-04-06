@@ -11,11 +11,11 @@ poster:
 slides:
 pdf:
 preprint:
-order_number: 1000
+order_number: 2
 ---
 
 ### Manuscript in preparation
-Zago D., Capizzi G., Qiu P. (202+). Optimal Constrained Design of Control Charts Using Stochastic Approximations. *Submitted*.
+Zago, D., Capizzi, G., & Qiu, P. (2024). Optimal constrained design of control charts using stochastic approximations. *Journal of Quality Technology*. [https://doi.org/10.1080/00224065.2024.2323585](https://doi.org/10.1080/00224065.2024.2323585)
 
 {% include markdown-header.md %}
 
