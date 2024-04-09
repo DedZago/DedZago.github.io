@@ -4,7 +4,7 @@ title: "Publications"
 permalink: /publications/
 ---
 
-Zago, D., Capizzi, G., Qiu, P. (2023). [Optimal constrained design of control charts using stochastic approximations.](../research/stoch-approx).  *Journal of Quality Technology*. [https://doi.org/10.1080/00224065.2024.2323585](https://doi.org/10.1080/00224065.2024.2323585)
+Zago, D., Capizzi, G., Qiu, P. (2024). [Optimal constrained design of control charts using stochastic approximations.](../research/stoch-approx).  *Journal of Quality Technology*. [https://doi.org/10.1080/00224065.2024.2323585](https://doi.org/10.1080/00224065.2024.2323585)
 
 Bonacina, S., Zago, D., Capizzi, G., Colosimo, B. M. (2023). [Statistical process monitoring of isolated and persistent defects in complex geometrical shapes](../research/ovetti). *Arxiv preprint*. [arXiv:2310.12876v1](https://arxiv.org/abs/2310.12876v1)
 
