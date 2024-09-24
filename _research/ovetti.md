@@ -13,20 +13,20 @@ pdf:
 preprint: 
 order_number: 1
 gallery:
-  - url: research/ovetti/ovetti-distances-b
-    image_path: research/ovetti/ovetti-distances-b
+  - url: research/ovetti/ovetti-distances-b.png
+    image_path: research/ovetti/ovetti-distances-b.png
     alt: ""
     title: ""
-  - url: research/ovetti/rsp-kurtosis-b
-    image_path: research/ovetti/rsp-kurtosis-b
+  - url: research/ovetti/rsp-kurtosis-b.png
+    image_path: research/ovetti/rsp-kurtosis-b.png
     alt: ""
     title: ""
-  - url: research/ovetti/ovetti-distances-f
-    image_path: research/ovetti/ovetti-distances-f
+  - url: research/ovetti/ovetti-distances-f.png
+    image_path: research/ovetti/ovetti-distances-f.png
     alt: ""
     title: ""
-  - url: research/ovetti/rsp-kurtosis-f
-    image_path: research/ovetti/rsp-kurtosis-f
+  - url: research/ovetti/rsp-kurtosis-f.png
+    image_path: research/ovetti/rsp-kurtosis-f.png
     alt: ""
     title: ""
 ---
