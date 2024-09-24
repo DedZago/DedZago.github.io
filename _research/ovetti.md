@@ -12,23 +12,24 @@ slides:
 pdf:
 preprint: 
 order_number: 1
-gallery:
+gallery1:
   - url: research/ovetti/ovetti-distances-b.png
     image_path: research/ovetti/ovetti-distances-b.png
     alt: ""
-    title: ""
+    title: "\"Backward\" distances for the egg dataset. The last six eggs are defective."
   - url: research/ovetti/rsp-kurtosis-b.png
     image_path: research/ovetti/rsp-kurtosis-b.png
     alt: ""
-    title: ""
+    title: "Our proposed method for change detection applied to the \"backward\" distances."
+gallery2:
   - url: research/ovetti/ovetti-distances-f.png
     image_path: research/ovetti/ovetti-distances-f.png
-    alt: ""
+    alt: "\"Forward\" distances for the egg dataset. The last six eggs are defective."
     title: ""
   - url: research/ovetti/rsp-kurtosis-f.png
     image_path: research/ovetti/rsp-kurtosis-f.png
     alt: ""
-    title: ""
+    title: "Our proposed method for change detection applied to the \"forward\" distances."
 ---
 
 ### Manuscript in preparation
@@ -43,8 +44,9 @@ Additive Manufacturing (AM), also known as 3D printing, allows the creation of c
 
 This paper proposes a novel Phase I procedure for **monitoring shape defects** by focusing on changes in the tails of the distribution of geometrical deviations, specifically through kurtosis analysis. Simulation studies have shown that this distribution-free method offers superior defect detection capabilities compared to conventional approaches.
 
-{% include gallery %}
+{% include gallery1 %}
 
+{% include gallery2 %}
 
 ### Key contributions ###
 Key contributions of this work include:
