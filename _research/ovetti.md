@@ -4,7 +4,7 @@ layout: single-portfolio
 excerpt: "<img src='/images/research/ovetti/ovetto.png' >"
 description:
 collection: research
-status: Manuscript in preparation
+status: Submitted
 article: 
 code:
 poster: 
