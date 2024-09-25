@@ -16,11 +16,11 @@ gallery:
   - url: research/ovetti/backward.png
     image_path: research/ovetti/backward.png
     alt: ""
-    title: "Top image: \"backward\" Hausdorff distances maps for the egg dataset, the last six eggs are defective. Bottom image: our proposed method for change detection."
+    title: "Top image: backward Hausdorff distances maps for the egg dataset, the last six eggs are defective. Bottom image: our proposed method for change detection."
   - url: research/ovetti/forward.png
     image_path: research/ovetti/forward.png
     alt: ""
-    title: "Top image: \"forward\" Hausdorff distances maps for the egg dataset, the last six eggs are defective. Bottom image: our proposed method for change detection."
+    title: "Top image: forward Hausdorff distances maps for the egg dataset, the last six eggs are defective. Bottom image: our proposed method for change detection."
 ---
 
 ### Manuscript in preparation
