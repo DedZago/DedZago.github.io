@@ -12,24 +12,15 @@ slides:
 pdf:
 preprint: 
 order_number: 1
-gallery1:
-  - url: research/ovetti/ovetti-distances-b.png
-    image_path: research/ovetti/ovetti-distances-b.png
+gallery:
+  - url: research/ovetti/backward.png
+    image_path: research/ovetti/backward.png
     alt: ""
-    title: "\"Backward\" distances for the egg dataset. The last six eggs are defective."
-  - url: research/ovetti/rsp-kurtosis-b.png
-    image_path: research/ovetti/rsp-kurtosis-b.png
+    title: "Top image: \"backward\" Hausdorff distances maps for the egg dataset, the last six eggs are defective. Bottom image: our proposed method for change detection."
+  - url: research/ovetti/forward.png
+    image_path: research/ovetti/forward.png
     alt: ""
-    title: "Our proposed method for change detection applied to the \"backward\" distances."
-gallery2:
-  - url: research/ovetti/ovetti-distances-f.png
-    image_path: research/ovetti/ovetti-distances-f.png
-    alt: "\"Forward\" distances for the egg dataset. The last six eggs are defective."
-    title: ""
-  - url: research/ovetti/rsp-kurtosis-f.png
-    image_path: research/ovetti/rsp-kurtosis-f.png
-    alt: ""
-    title: "Our proposed method for change detection applied to the \"forward\" distances."
+    title: "Top image: \"forward\" Hausdorff distances maps for the egg dataset, the last six eggs are defective. Bottom image: our proposed method for change detection."
 ---
 
 ### Manuscript in preparation
@@ -44,9 +35,7 @@ Additive Manufacturing (AM), also known as 3D printing, allows the creation of c
 
 This paper proposes a novel Phase I procedure for **monitoring shape defects** by focusing on changes in the tails of the distribution of geometrical deviations, specifically through kurtosis analysis. Simulation studies have shown that this distribution-free method offers superior defect detection capabilities compared to conventional approaches.
 
-{% include gallery1 %}
-
-{% include gallery2 %}
+{% include gallery %}
 
 ### Key contributions ###
 Key contributions of this work include:
