@@ -30,9 +30,12 @@ showcase:
     - URL: "https://github.com/DedZago"
       icon: "fab fa-github"
       btnText: "Github"
-    - URL: "https://dedzago.github.io/zago_cv.pdf"
+    - URL: "/pdf/zago_cv.pdf"
       icon: "fa-solid fa-file-pdf"
-      btnText: "CV"
+      btnText: "CV 🇬🇧"
+    - URL: "/pdf/zago_cv-italian.pdf"
+      icon: "fa-solid fa-file-pdf"
+      btnText: "CV 🇮🇹"
   button2:
 
 
