@@ -13,7 +13,7 @@
       <link>http://localhost:1313/projects/package-spm/</link>
       <pubDate>Sun, 25 Aug 2024 09:53:42 +0200</pubDate>
       <guid>http://localhost:1313/projects/package-spm/</guid>
-      <description>&lt;p&gt;I developed a software package in Julia designed for advanced statistical process monitoring. This package integrates state-of-the-art algorithms with modern control charts to monitor complex data structures, including sequential data, functional data, and networks.&lt;/p&gt;&#xA;&lt;p&gt;The software is designed for real-time monitoring and early detection of anomalies, offering versatile applications across various industries.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I developed a software package in Julia designed for advanced statistical process monitoring. This package integrates state-of-the-art algorithms with modern control charts to monitor complex data structures, including sequential data, functional data, and networks.&lt;/p&gt;&#xA;&lt;p&gt;The software is designed for real-time monitoring and early detection of anomalies, with versatile applications across various industries.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Monitoring of complex geometrical shapes</title>
@@ -21,6 +21,20 @@
       <pubDate>Sun, 25 Aug 2024 09:53:42 +0200</pubDate>
       <guid>http://localhost:1313/projects/ovetti/</guid>
       <description>&lt;p&gt;I developed an innovative statistical quality control method for detecting shape defects in complex geometries obtained via Additive Manufacturing.&#xA;I created a novel non-parametric control chart based on kurtosis analysis to enhancing defect sensitivity and improving monitoring of 3D-printed objects.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A doubly-stochastic constrained optimization algorithm</title>
+      <link>http://localhost:1313/projects/stochapprox/</link>
+      <pubDate>Thu, 25 Aug 2022 09:53:42 +0200</pubDate>
+      <guid>http://localhost:1313/projects/stochapprox/</guid>
+      <description>&lt;p&gt;I designed a novel stochastic optimization algorithm with stochastic constraints, aimed at optimizing control chart tuning parameters with greater efficiency compared to traditional numerical methods. This innovative approach has been published in the &lt;em&gt;Journal of Quality Technology&lt;/em&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Alternative parameter learning schemes for monitoring process stability</title>
+      <link>http://localhost:1313/projects/alternative-parameter-learning/</link>
+      <pubDate>Wed, 25 Aug 2021 09:53:42 +0200</pubDate>
+      <guid>http://localhost:1313/projects/alternative-parameter-learning/</guid>
+      <description>&lt;p&gt;I formalized the theoretical behavior of parameter learning schemes in relation to outlier detection performance in control charts. This work enabled the generalization of alternative parameter learning methods, leading to a more efficient and accurate detection scheme compared to traditional approaches.&#xA;This work has been published in &lt;em&gt;Quality Engineering&lt;/em&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Data Scientist</title>

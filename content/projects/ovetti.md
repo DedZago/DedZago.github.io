@@ -6,10 +6,10 @@ draft: false # set to "true" if you want to hide the content
 # link: "" # optional URL to link the logo to
 
 params:
-    button:
-        icon: "icon-arrow-right"
-        btnText: "Case Study"
-        URL: ""
+#    buttons:
+#        - icon: "fa-solid fa-share"
+#          btnText: "Case Study"
+#          URL: ""
     image:  
         x: "images/works/ovetti/showcase.png"
         _2x: "images/works/ovetti/showcase.png"

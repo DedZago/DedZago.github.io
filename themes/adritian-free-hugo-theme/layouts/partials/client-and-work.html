@@ -62,9 +62,13 @@
         <p class="lead">
           {{ .Page.Content }}
         </p>
-        <a href="{{ .Params.button.URL | absURL }}" class="btn btn-primary"
-          >{{ .Params.button.btnText }}<i class="{{ .Params.button.icon }}"></i
-        ></a>
+
+        {{ range .Params.buttons }}
+        <a href="{{ .URL | absURL }}" target="_blank"  class="btn btn-primary">
+          {{ .btnText }} &nbsp; <i class="{{ .icon }}"></i>
+        </a>
+        {{ end }}
+
       </div>
       <div class="col-12 col-md-7 pl-md-0 text-right">
 
@@ -118,9 +122,13 @@
         <p class="lead">
           {{ .Page.Content }}
         </p>
-        <a href="{{ .Params.button.URL | absURL }}" class="btn btn-primary"
-          >{{ .Params.button.btnText }}<i class="{{ .Params.button.icon }}"></i
-        ></a>
+
+        {{ range .Params.buttons }}
+        <a href="{{ .URL | absURL }}" target="_blank"  class="btn btn-primary">
+          {{ .btnText }} &nbsp; <i class="{{ .icon }}"></i>
+        </a>
+        {{ end }}
+
       </div>
       {{ end }}
     </div>

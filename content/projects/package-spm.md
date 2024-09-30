@@ -6,17 +6,17 @@ draft: false # set to "true" if you want to hide the content
 # link: "" # optional URL to link the logo to
 
 params:
-    button:
-        icon: "icon-arrow-right"
-        btnText: "Source code"
-        URL: "https://github.com/DedZago/StatisticalProcessMonitoring.jl"
+    buttons:
+        - icon: "fab fa-github"
+          btnText: "Source code"
+          URL: "https://github.com/DedZago/StatisticalProcessMonitoring.jl"
     image:  
-        x: "images/works/software/showcase.png"
-        _2x: "images/works/software/showcase.png"
+      x: "images/works/software/showcase.png"
+      _2x: "images/works/software/showcase.png"
 
 ## The content is used for the description of the project
 ---
 
 I developed a software package in Julia designed for advanced statistical process monitoring. This package integrates state-of-the-art algorithms with modern control charts to monitor complex data structures, including sequential data, functional data, and networks.
 
-The software is designed for real-time monitoring and early detection of anomalies, offering versatile applications across various industries.
+The software is designed for real-time monitoring and early detection of anomalies, with versatile applications across various industries.

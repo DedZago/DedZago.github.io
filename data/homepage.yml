@@ -1,3 +1,8 @@
+# page title
+head:
+  title: "Daniele Zago"
+  description: ""
+
 # showcase
 showcase:
   enable: true
@@ -17,16 +22,16 @@ showcase:
 
   buttons:
     - URL: "mailto:zagodaniele.9@gmail.com"
-      icon: "icon-mail-fill"
+      icon: "fa-solid fa-envelope"
       btnText: "Contact"
     - URL: "https://www.linkedin.com/in/daniele-zago/"
-      icon: "icon-linkedin-line"
+      icon: "fab fa-linkedin"
       btnText: "Linkedin"
     - URL: "https://github.com/DedZago"
-      icon: "icon-github-line"
+      icon: "fab fa-github"
       btnText: "Github"
-    - URL: "https://dedzago.github.io/cv/"
-      icon: "icon-profile-fill"
+    - URL: "https://dedzago.github.io/zago_cv.pdf"
+      icon: "fa-solid fa-file-pdf"
       btnText: "CV"
   button2:
 
@@ -46,6 +51,7 @@ about:
       The things that I look forward the most in a problem are challenges and novel solutions. Because of this, I have worked on a range of different topics, such as <i>3D meshes</i>, <i>stochastic optimization</i>, and <i>efficient algorithms</i>. 
     </p>
   button:
+    enable: false
     icon: "icon-smile-fill"
     btnText: "About Me"
     URL: "https://www.linkedin.com/in/daniele-zago/"
@@ -75,13 +81,13 @@ experience:
 
     Proven ability to deliver data-driven solutions in consulting projects, translating technical requirements into actionable strategies, and consistently meeting client expectations.
   button:
-    icon: "icon-linkedin-fill"
+    icon: "fab fa-linkedin"
     btnText: "Linkedin"
     URL: "https://www.linkedin.com/in/daniele-zago/"
   button2:
-    icon: "icon-profile-fill"
-    btnText: "Download My Resume"
-    URL: "https://dedzago.github.io/cv/"
+    icon: "fa-solid fa-file-pdf"
+    btnText: "Download My CV"
+    URL: "https://dedzago.github.io/zago_cv.pdf"
 
 # Client & Work
 client_and_work:

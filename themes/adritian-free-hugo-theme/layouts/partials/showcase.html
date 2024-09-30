@@ -15,8 +15,8 @@
         </p>
 
         {{ range .Site.Data.homepage.showcase.buttons }}
-        <a href="{{ .URL | safeHTML }}" class="btn btn-primary">
-          <i class="{{ .icon }}"></i>
+        <a href="{{ .URL | safeHTML }}" target="_blank" class="btn btn-primary">
+          <i class="{{ .icon }}"></i> &nbsp;
           {{ .btnText }}
         </a>
         {{ end }}
