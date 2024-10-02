@@ -20,3 +20,5 @@ params:
 I developed a software package in Julia designed for advanced statistical process monitoring. This package integrates state-of-the-art algorithms with modern control charts to monitor complex data structures, including sequential data, functional data, and networks.
 
 The software is designed for real-time monitoring and early detection of anomalies, with versatile applications across various industries.
+
+A paper detailing the versatility of the package is scheduled for publication in 2025 on the *Journal of Statistical Software*. 

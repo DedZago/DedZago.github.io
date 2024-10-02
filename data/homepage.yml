@@ -90,7 +90,7 @@ experience:
   button2:
     icon: "fa-solid fa-file-pdf"
     btnText: "Download My CV"
-    URL: "https://dedzago.github.io/zago_cv.pdf"
+    URL: "/pdf/zago_cv.pdf"
 
 # Client & Work
 client_and_work:

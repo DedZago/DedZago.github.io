@@ -17,5 +17,5 @@ params:
 ## The content is used for the description of the project
 ---
 
-I developed an innovative statistical quality control method for detecting shape defects in complex geometries obtained via Additive Manufacturing.
-I created a novel non-parametric control chart based on kurtosis analysis to enhancing defect sensitivity and improving monitoring of 3D-printed objects.
+I developed an innovative statistical quality control method for detecting shape defects in complex geometries obtained via additive manufacturing.
+I introduced a novel nonparametric control chart based on kurtosis analysis which provides superior defect detection for 3D-printed objects compared to existing approaches.
