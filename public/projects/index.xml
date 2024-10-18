@@ -13,14 +13,14 @@
       <link>http://localhost:1313/projects/package-spm/</link>
       <pubDate>Sun, 25 Aug 2024 09:53:42 +0200</pubDate>
       <guid>http://localhost:1313/projects/package-spm/</guid>
-      <description>&lt;p&gt;I developed a software package in Julia designed for advanced statistical process monitoring. This package integrates state-of-the-art algorithms with modern control charts to monitor complex data structures, including sequential data, functional data, and networks.&lt;/p&gt;&#xA;&lt;p&gt;The software is designed for real-time monitoring and early detection of anomalies, with versatile applications across various industries.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I developed a software package in Julia designed for advanced statistical process monitoring. This package integrates state-of-the-art algorithms with modern control charts to monitor complex data structures, including sequential data, functional data, and networks.&lt;/p&gt;&#xA;&lt;p&gt;The software is designed for real-time monitoring and early detection of anomalies, with versatile applications across various industries.&lt;/p&gt;&#xA;&lt;p&gt;A paper detailing the versatility of the package is scheduled for publication in 2025 on the &lt;em&gt;Journal of Statistical Software&lt;/em&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Monitoring of complex geometrical shapes</title>
       <link>http://localhost:1313/projects/ovetti/</link>
       <pubDate>Sun, 25 Aug 2024 09:53:42 +0200</pubDate>
       <guid>http://localhost:1313/projects/ovetti/</guid>
-      <description>&lt;p&gt;I developed an innovative statistical quality control method for detecting shape defects in complex geometries obtained via Additive Manufacturing.&#xA;I created a novel non-parametric control chart based on kurtosis analysis to enhancing defect sensitivity and improving monitoring of 3D-printed objects.&lt;/p&gt;</description>
+      <description>&lt;p&gt;I developed an innovative statistical quality control method for detecting shape defects in complex geometries obtained via additive manufacturing.&#xA;I introduced a novel nonparametric control chart based on kurtosis analysis which provides superior defect detection for 3D-printed objects compared to existing approaches.&lt;/p&gt;</description>
     </item>
     <item>
       <title>A doubly-stochastic constrained optimization algorithm</title>

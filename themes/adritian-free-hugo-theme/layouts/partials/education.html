@@ -9,7 +9,7 @@
                     <div class="col-12 col-sm-6 mb-4 mb-sm-0">
                         <div class="education">
                             <div class="education__date">{{ .year }}</div>
-                            <div class="education__title">{{ .university }}</div>
+                            <div class="education__title">{{ .university | safeHTML }}</div>
                             <div class="education__degree">
                                 {{ .degree  | safeHTML }}
                             </div>

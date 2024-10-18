@@ -8,9 +8,9 @@ showcase:
   enable: true
   title: "Daniele Zago"
   subtitle: >
-    Statistics Ph.D. Student
+    Data Scientist
   description: >
-    Currently pursuing a Ph.D. in Statistics at <a target='_blank' href='https://www.stat.unipd.it/'>UniPD</a>, Padova 🇮🇹<br>
+    Currently working as a Data Scientist at <a target='_blank' href='https://www.optit.net/'>OPTIT S.r.l.</a>, Bologna 🇮🇹<br>
 
     My background is in industrial statistics, with expertise in online outlier detection and stochastic optimization.
     I am passionate about solving complex problems and developing data-driven solutions. 
@@ -67,20 +67,20 @@ education:
   enable: true
   title: "Education"
   items:
-    - university: "University of Padova"
+    - university: University of Padova -- <i> Statistical Sciences </i>
       degree: |
-        2021 — 2024 &nbsp; <i>Doctor of Philosophy (Ph.D.)</i> &nbsp;&nbsp;&nbsp;&nbsp; Statistical Sciences<br>
+        2021 — 2024 &nbsp; <i>Doctor of Philosophy (Ph.D.)</i> <br>
 
-        2019 — 2021 &nbsp; <i>Master of Science (M.Sc.)</i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   Statistical Sciences <br>
+        2019 — 2021 &nbsp; <i>Master of Science (M.Sc.)</i> <br>
 
-        2016 — 2019 &nbsp; <i>Bachelor of Science (B.Sc.)</i> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Statistics for Technology and Sciences
+        2016 — 2019 &nbsp; <i>Bachelor of Science (B.Sc.)</i> 
 
 # experience
 experience:
   enable: true
   title: "Experience"
   description: |
-    Experienced in deploying advanced statistical algorithms, specializing in real-time outlier detection and stochastic optimization.<br>
+    Experienced in designing advanced statistical algorithms, specializing in real-time outlier detection and stochastic optimization.<br>
 
     Proven ability to deliver data-driven solutions in consulting projects, translating technical requirements into actionable strategies, and consistently meeting client expectations.
   button:
