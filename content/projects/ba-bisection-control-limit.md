@@ -17,4 +17,4 @@ params:
 ## The content is used for the description of the project
 ---
 
-I developed a modified bisection algorithm for computing control limits in complex settings where standard methods are inefficient. The approach removes the need for a predefined search range and scales efficiently to multi-chart scenarios. The method has been published in Statistics and Computing.
+I developed a modified bisection algorithm for computing control limits in complex settings where standard methods are inefficient. The approach removes the need for a predefined search range and scales efficiently to multi-chart scenarios. The method has been published in *Statistics and Computing*.
