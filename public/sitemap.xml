@@ -2,38 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://www.adrianmoreno.info/</loc>
     <lastmod>2024-08-25T09:53:42+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/package-spm/</loc>
+    <loc>https://www.adrianmoreno.info/projects/package-spm/</loc>
     <lastmod>2024-08-25T09:53:42+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/client-work/</loc>
+    <loc>https://www.adrianmoreno.info/client-work/</loc>
     <lastmod>2024-08-25T09:53:42+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/ovetti/</loc>
+    <loc>https://www.adrianmoreno.info/projects/ba-bisection-control-limit/</loc>
     <lastmod>2024-08-25T09:53:42+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/</loc>
+    <loc>https://www.adrianmoreno.info/projects/ovetti/</loc>
     <lastmod>2024-08-25T09:53:42+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/stochapprox/</loc>
+    <loc>https://www.adrianmoreno.info/projects/</loc>
+    <lastmod>2024-08-25T09:53:42+02:00</lastmod>
+  </url><url>
+    <loc>https://www.adrianmoreno.info/projects/stochapprox/</loc>
     <lastmod>2022-08-25T09:53:42+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/alternative-parameter-learning/</loc>
+    <loc>https://www.adrianmoreno.info/projects/alternative-parameter-learning/</loc>
     <lastmod>2021-08-25T09:53:42+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/experience/data-scientist-at-optit/</loc>
+    <loc>https://www.adrianmoreno.info/experience/data-scientist-at-optit/</loc>
     <lastmod>2008-12-01T00:00:00+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/experience/</loc>
+    <loc>https://www.adrianmoreno.info/experience/</loc>
     <lastmod>2008-12-01T00:00:00+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/experience/phd/</loc>
+    <loc>https://www.adrianmoreno.info/experience/phd/</loc>
     <lastmod>2007-12-01T00:00:00+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://www.adrianmoreno.info/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://www.adrianmoreno.info/tags/</loc>
   </url>
 </urlset>

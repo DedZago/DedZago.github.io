@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Experiences on </title>
-    <link>http://localhost:1313/experience/</link>
+    <link>https://www.adrianmoreno.info/experience/</link>
     <description>Recent content in Experiences on </description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 01 Dec 2008 00:00:00 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/experience/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.adrianmoreno.info/experience/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Data Scientist</title>
-      <link>http://localhost:1313/experience/data-scientist-at-optit/</link>
+      <link>https://www.adrianmoreno.info/experience/data-scientist-at-optit/</link>
       <pubDate>Mon, 01 Dec 2008 00:00:00 +0100</pubDate>
-      <guid>http://localhost:1313/experience/data-scientist-at-optit/</guid>
+      <guid>https://www.adrianmoreno.info/experience/data-scientist-at-optit/</guid>
       <description>&lt;h3 id=&#34;data-scientist-at-optit-srl&#34;&gt;Data Scientist at OPTIT S.r.l.&lt;/h3&gt;&#xA;&lt;p&gt;I joined OPTIT S.r.l. as a Data Scientist to leverage my statistical expertise to solve complex, real-world problems. My goal is to drive innovation in logistics and supply chain optimization by applying cutting-edge machine learning techniques and developing novel, data-driven solutions.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Ph.D. Student</title>
-      <link>http://localhost:1313/experience/phd/</link>
+      <link>https://www.adrianmoreno.info/experience/phd/</link>
       <pubDate>Sat, 01 Dec 2007 00:00:00 +0100</pubDate>
-      <guid>http://localhost:1313/experience/phd/</guid>
+      <guid>https://www.adrianmoreno.info/experience/phd/</guid>
       <description>&lt;h3 id=&#34;phd-student-in-statistical-sciences&#34;&gt;Ph.D. Student in Statistical Sciences&lt;/h3&gt;&#xA;&lt;p&gt;During my Ph.D. in Statistical Sciences at Università degli Studi di Padova, I focused on advancing my technical expertise in industrial statistics, particularly in real-time outlier detection and stochastic optimization. My work in these areas has been recognized through multiple publications in leading journals, such as &lt;em&gt;Journal of Quality Technology&lt;/em&gt; and &lt;em&gt;Quality Engineering&lt;/em&gt;.&#xA;Furthermore, I developed a statistical package in &lt;strong&gt;Julia&lt;/strong&gt;, which has been accepted as an article in the &lt;em&gt;Journal of Statistical Software&lt;/em&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
