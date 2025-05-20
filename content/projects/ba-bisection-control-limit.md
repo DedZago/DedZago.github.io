@@ -17,8 +17,4 @@ params:
 ## The content is used for the description of the project
 ---
 
-This project addresses the challenge of computing control limits in statistical process control when the in-control process distribution is complex and analytical solutions are not feasible. Standard Monte Carlo-based methods like bisection search require a predefined search range and become computationally intensive when multiple charts are involved.
-
-I proposed a modified bisection algorithm that eliminates the need for an initial search interval and significantly improves computational efficiency. The method was further extended to handle multi-chart scenarios effectively. Comparative experiments showed that the new approach outperforms classical bisection and stochastic approximation techniques.
-
-A paper detailing the methodology has been published in Statistics and Computing.
+I developed a modified bisection algorithm for computing control limits in complex settings where standard methods are inefficient. The approach removes the need for a predefined search range and scales efficiently to multi-chart scenarios. The method has been published in Statistics and Computing.
