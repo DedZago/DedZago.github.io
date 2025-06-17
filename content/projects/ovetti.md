@@ -1,5 +1,5 @@
 ---
-date: '2025-08-25' # date in which the content is created - defaults to "today"
+date: '2024-08-28' # date in which the content is created - defaults to "today"
 title: 'Monitoring of complex geometrical shapes'
 draft: false # set to "true" if you want to hide the content 
 

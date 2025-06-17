@@ -1,5 +1,5 @@
 ---
-date: '2025-08-24' # date in which the content is created - defaults to "today"
+date: '2024-08-26' # date in which the content is created - defaults to "today"
 title: 'An improved bisection-type algorithm for control chart calibration'
 draft: false # set to "true" if you want to hide the content 
 
