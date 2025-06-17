@@ -1,4 +1,4 @@
-baseURL = "https://www.adrianmoreno.info"
+baseURL = "https://dedzago.github.io"
 languageCode = "en-us"
 theme = "adritian-free-hugo-theme"
 
@@ -36,8 +36,8 @@ theme = "adritian-free-hugo-theme"
   weight = 3
 
   [[menu.header]]
-  name = "Portfolio"
-  URL = "#portfolio"
+  name = "Publications"
+  URL = "#publications"
   weight = 4
 
   # [[menu.header]]
