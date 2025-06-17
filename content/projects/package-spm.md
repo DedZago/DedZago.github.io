@@ -17,4 +17,4 @@ params:
 ## The content is used for the description of the project
 ---
 
-I developed a Julia package for real-time statistical process monitoring, integrating advanced algorithms and control charts to handle complex data types, such as sequential data, functional data, and networks. A paper illustrating package is set to appear in the *Journal of Statistical Software* (2025+).
+I developed a Julia package for real-time statistical process monitoring, integrating advanced algorithms and control charts to handle complex data types, such as sequential data, functional data, and structured observations. A paper illustrating package is set to appear in the *Journal of Statistical Software* (2025+).
