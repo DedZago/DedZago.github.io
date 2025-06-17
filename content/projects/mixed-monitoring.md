@@ -1,5 +1,5 @@
 ---
-date: '2025-20-22T09:53:42+02:00' # date in which the content is created - defaults to "today"
+date: '2024-08-22' # date in which the content is created - defaults to "today"
 title: 'A General Framework for Monitoring Mixed Data'
 draft: false # set to "true" if you want to hide the content 
 

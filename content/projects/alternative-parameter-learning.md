@@ -1,5 +1,5 @@
 ---
-date: '2021-08-25T09:53:42+02:00' # date in which the content is created - defaults to "today"
+date: '2021-08-25' # date in which the content is created - defaults to "today"
 title: 'Alternative parameter learning schemes for monitoring process stability'
 draft: false # set to "true" if you want to hide the content 
 

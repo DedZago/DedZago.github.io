@@ -1,5 +1,5 @@
 ---
-date: '2022-08-25T09:53:42+02:00' # date in which the content is created - defaults to "today"
+date: '2025-08-27T09:53:42+02:00' # date in which the content is created - defaults to "today"
 title: 'A doubly-stochastic constrained optimization algorithm'
 draft: false # set to "true" if you want to hide the content 
 

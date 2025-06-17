@@ -1,5 +1,5 @@
 ---
-date: '2024-08-25T09:53:42+02:00' # date in which the content is created - defaults to "today"
+date: '2025-08-25' # date in which the content is created - defaults to "today"
 title: 'Monitoring of complex geometrical shapes'
 draft: false # set to "true" if you want to hide the content 
 
@@ -19,3 +19,4 @@ params:
 
 I developed an innovative statistical quality control method for detecting shape defects in complex geometries obtained via additive manufacturing.
 I introduced a novel nonparametric control chart based on kurtosis analysis which provides superior defect detection for 3D-printed objects compared to existing approaches.
+A paper detailing the methodology has been submitted for review.

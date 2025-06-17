@@ -30,10 +30,10 @@ showcase:
     - URL: "https://github.com/DedZago"
       icon: "fab fa-github"
       btnText: "Github"
-    - URL: "/pdf/zago_cv.pdf"
+    - URL: "/pdf/zago_cv_english.pdf"
       icon: "fa-solid fa-file-pdf"
       btnText: "CV 🇬🇧"
-    - URL: "/pdf/zago_cv-italian.pdf"
+    - URL: "/pdf/zago_cv_italian.pdf"
       icon: "fa-solid fa-file-pdf"
       btnText: "CV 🇮🇹"
   button2:
@@ -90,11 +90,11 @@ experience:
   button2:
     icon: "fa-solid fa-file-pdf"
     btnText: "Download My CV"
-    URL: "/pdf/zago_cv.pdf"
+    URL: "/pdf/zago_cv_english.pdf"
 
 # Client & Work
 client_and_work:
-  title: "Projects"
+  title: "Publications"
   enable: true
   
 # testimonial
