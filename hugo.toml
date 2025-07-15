@@ -26,8 +26,8 @@ theme = "adritian-free-hugo-theme"
 [menu]
 
   [[menu.header]]
-  name = "About"
-  URL = "#about"
+  name = "Education"
+  URL = "#education"
   weight = 2
 
   [[menu.header]]
@@ -37,7 +37,7 @@ theme = "adritian-free-hugo-theme"
 
   [[menu.header]]
   name = "Publications"
-  URL = "#publications"
+  URL = "#client-and-work"
   weight = 4
 
   # [[menu.header]]
@@ -51,8 +51,8 @@ theme = "adritian-free-hugo-theme"
   # weight = 6
 
   [[menu.footer]]
-  name = "About"
-  URL = "#about"
+  name = "Education"
+  URL = "#education"
   weight = 2
 
   [[menu.footer]]
@@ -62,7 +62,7 @@ theme = "adritian-free-hugo-theme"
 
   [[menu.footer]]
   name = "Publications"
-  URL = "#publications"
+  URL = "#client-and-work"
   weight = 4
 
 

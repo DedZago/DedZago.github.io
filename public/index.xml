@@ -2,59 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <link>https://www.adrianmoreno.info/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on </description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 25 Aug 2024 09:53:42 +0200</lastBuildDate>
-    <atom:link href="https://www.adrianmoreno.info/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>A software for modern statistical process monitoring</title>
-      <link>https://www.adrianmoreno.info/projects/package-spm/</link>
-      <pubDate>Sun, 25 Aug 2024 09:53:42 +0200</pubDate>
-      <guid>https://www.adrianmoreno.info/projects/package-spm/</guid>
-      <description>&lt;p&gt;I developed a software package in Julia designed for advanced statistical process monitoring. This package integrates state-of-the-art algorithms with modern control charts to monitor complex data structures, including sequential data, functional data, and networks.&lt;/p&gt;&#xA;&lt;p&gt;The software is designed for real-time monitoring and early detection of anomalies, with versatile applications across various industries.&lt;/p&gt;&#xA;&lt;p&gt;A paper detailing the versatility of the package is scheduled for publication in 2025 on the &lt;em&gt;Journal of Statistical Software&lt;/em&gt;.&lt;/p&gt;</description>
-    </item>
+    <lastBuildDate>Wed, 28 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Monitoring of complex geometrical shapes</title>
-      <link>https://www.adrianmoreno.info/projects/ba-bisection-control-limit/</link>
-      <pubDate>Sun, 25 Aug 2024 09:53:42 +0200</pubDate>
-      <guid>https://www.adrianmoreno.info/projects/ba-bisection-control-limit/</guid>
-      <description>&lt;p&gt;I developed an innovative statistical quality control method for detecting shape defects in complex geometries obtained via additive manufacturing.&#xA;I introduced a novel nonparametric control chart based on kurtosis analysis which provides superior defect detection for 3D-printed objects compared to existing approaches.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Monitoring of complex geometrical shapes</title>
-      <link>https://www.adrianmoreno.info/projects/ovetti/</link>
-      <pubDate>Sun, 25 Aug 2024 09:53:42 +0200</pubDate>
-      <guid>https://www.adrianmoreno.info/projects/ovetti/</guid>
-      <description>&lt;p&gt;I developed an innovative statistical quality control method for detecting shape defects in complex geometries obtained via additive manufacturing.&#xA;I introduced a novel nonparametric control chart based on kurtosis analysis which provides superior defect detection for 3D-printed objects compared to existing approaches.&lt;/p&gt;</description>
+      <link>http://localhost:1313/projects/ovetti/</link>
+      <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ovetti/</guid>
+      <description>&lt;p&gt;I developed an innovative statistical quality control method for detecting shape defects in complex geometries obtained via additive manufacturing.&#xA;I introduced a novel nonparametric control chart based on kurtosis analysis which provides superior defect detection for 3D-printed objects compared to existing approaches.&#xA;A paper detailing the methodology has been submitted for review.&lt;/p&gt;</description>
     </item>
     <item>
       <title>A doubly-stochastic constrained optimization algorithm</title>
-      <link>https://www.adrianmoreno.info/projects/stochapprox/</link>
-      <pubDate>Thu, 25 Aug 2022 09:53:42 +0200</pubDate>
-      <guid>https://www.adrianmoreno.info/projects/stochapprox/</guid>
+      <link>http://localhost:1313/projects/stochapprox/</link>
+      <pubDate>Tue, 27 Aug 2024 09:53:42 +0200</pubDate>
+      <guid>http://localhost:1313/projects/stochapprox/</guid>
       <description>&lt;p&gt;I designed a novel stochastic optimization algorithm with stochastic constraints, aimed at optimizing control chart tuning parameters with greater efficiency compared to traditional numerical methods. This innovative approach has been published in the &lt;em&gt;Journal of Quality Technology&lt;/em&gt;.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>An improved bisection-type algorithm for control chart calibration</title>
+      <link>http://localhost:1313/projects/ba-bisection-control-limit/</link>
+      <pubDate>Mon, 26 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/ba-bisection-control-limit/</guid>
+      <description>&lt;p&gt;I developed a modified bisection algorithm for computing control limits in complex settings where standard methods are inefficient. The approach removes the need for a predefined search range and scales efficiently to multi-chart scenarios. The method has been published in &lt;em&gt;Statistics and Computing&lt;/em&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A General Framework for Monitoring Mixed Data</title>
+      <link>http://localhost:1313/projects/mixed-monitoring/</link>
+      <pubDate>Thu, 22 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/mixed-monitoring/</guid>
+      <description>&lt;p&gt;I developed a general methodology to monitor processes involving mixed-type data (continuous, ordinal, categorical), common in real-world applications. The method enables effective sequential monitoring under serial correlation and has been published in the &lt;em&gt;Journal of Quality Technology&lt;/em&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A software for modern statistical process monitoring</title>
+      <link>http://localhost:1313/projects/package-spm/</link>
+      <pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/package-spm/</guid>
+      <description>&lt;p&gt;I developed a Julia package for real-time statistical process monitoring, integrating advanced algorithms and control charts to handle complex data types, such as sequential data, functional data, and structured observations. A paper illustrating package is set to appear in the &lt;em&gt;Journal of Statistical Software&lt;/em&gt; (2025+).&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Alternative parameter learning schemes for monitoring process stability</title>
-      <link>https://www.adrianmoreno.info/projects/alternative-parameter-learning/</link>
-      <pubDate>Wed, 25 Aug 2021 09:53:42 +0200</pubDate>
-      <guid>https://www.adrianmoreno.info/projects/alternative-parameter-learning/</guid>
+      <link>http://localhost:1313/projects/alternative-parameter-learning/</link>
+      <pubDate>Wed, 25 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/alternative-parameter-learning/</guid>
       <description>&lt;p&gt;I formalized the theoretical behavior of parameter learning schemes in relation to outlier detection performance in control charts. This work enabled the generalization of alternative parameter learning methods, leading to a more efficient and accurate detection scheme compared to traditional approaches.&#xA;This work has been published in &lt;em&gt;Quality Engineering&lt;/em&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Data Scientist</title>
-      <link>https://www.adrianmoreno.info/experience/data-scientist-at-optit/</link>
+      <link>http://localhost:1313/experience/data-scientist-at-optit/</link>
       <pubDate>Mon, 01 Dec 2008 00:00:00 +0100</pubDate>
-      <guid>https://www.adrianmoreno.info/experience/data-scientist-at-optit/</guid>
+      <guid>http://localhost:1313/experience/data-scientist-at-optit/</guid>
       <description>&lt;h3 id=&#34;data-scientist-at-optit-srl&#34;&gt;Data Scientist at OPTIT S.r.l.&lt;/h3&gt;&#xA;&lt;p&gt;I joined OPTIT S.r.l. as a Data Scientist to leverage my statistical expertise to solve complex, real-world problems. My goal is to drive innovation in logistics and supply chain optimization by applying cutting-edge machine learning techniques and developing novel, data-driven solutions.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Ph.D. Student</title>
-      <link>https://www.adrianmoreno.info/experience/phd/</link>
+      <link>http://localhost:1313/experience/phd/</link>
       <pubDate>Sat, 01 Dec 2007 00:00:00 +0100</pubDate>
-      <guid>https://www.adrianmoreno.info/experience/phd/</guid>
+      <guid>http://localhost:1313/experience/phd/</guid>
       <description>&lt;h3 id=&#34;phd-student-in-statistical-sciences&#34;&gt;Ph.D. Student in Statistical Sciences&lt;/h3&gt;&#xA;&lt;p&gt;During my Ph.D. in Statistical Sciences at Università degli Studi di Padova, I focused on advancing my technical expertise in industrial statistics, particularly in real-time outlier detection and stochastic optimization. My work in these areas has been recognized through multiple publications in leading journals, such as &lt;em&gt;Journal of Quality Technology&lt;/em&gt; and &lt;em&gt;Quality Engineering&lt;/em&gt;.&#xA;Furthermore, I developed a statistical package in &lt;strong&gt;Julia&lt;/strong&gt;, which has been accepted as an article in the &lt;em&gt;Journal of Statistical Software&lt;/em&gt;.&lt;/p&gt;</description>
     </item>
   </channel>

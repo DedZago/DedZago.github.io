@@ -12,8 +12,7 @@ showcase:
   description: >
     Currently working as a Data Scientist at <a target='_blank' href='https://www.optit.net/'>OPTIT S.r.l.</a>, Bologna 🇮🇹<br>
 
-    My background is in industrial statistics, with expertise in online outlier detection and stochastic optimization.
-    I am passionate about solving complex problems and developing data-driven solutions. 
+    Ph.D. in Statistical Sciences specializing in industrial statistics, online outlier detection, and stochastic optimization. I develop efficient algorithmic solutions and user-friendly applications for complex data-driven problems. I have experience in both statistical consulting, and software development. 
   image:
     x: "images/showcase/user-picture.png"
     _2x: "images/showcase/user-picture@2x.png"
@@ -41,7 +40,7 @@ showcase:
 
 # about
 about:
-  enable: true
+  enable: false
   title: "Who am I?"
   content: >
     <p class="lead">
