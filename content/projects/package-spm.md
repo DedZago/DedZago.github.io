@@ -1,5 +1,5 @@
 ---
-date: '2023-08-25T00:00:00Z' # date in which the content is created - defaults to "today"
+date: '2024-08-27T00:00:00Z' # date in which the content is created - defaults to "today"
 title: 'A software for modern statistical process monitoring'
 draft: false # set to "true" if you want to hide the content 
 
@@ -7,6 +7,9 @@ draft: false # set to "true" if you want to hide the content
 
 params:
     buttons:
+        - icon: "fa-solid fa-share"
+          btnText: "Journal article"
+          URL: "https://www.jstatsoft.org/article/view/v113i07"
         - icon: "fab fa-github"
           btnText: "Source code"
           URL: "https://github.com/DedZago/StatisticalProcessMonitoring.jl"
@@ -17,4 +20,4 @@ params:
 ## The content is used for the description of the project
 ---
 
-I developed a Julia package for real-time statistical process monitoring, integrating advanced algorithms and control charts to handle complex data types, such as sequential data, functional data, and structured observations. A paper illustrating package is set to appear in the *Journal of Statistical Software* (2025+).
+I developed a Julia package for real-time statistical process monitoring, integrating advanced algorithms and control charts to handle complex data types, such as sequential data, functional data, and structured observations. A paper that accompanies the package has been published in the *Journal of Statistical Software*.

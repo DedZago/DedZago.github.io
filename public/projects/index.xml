@@ -41,7 +41,7 @@
       <link>http://localhost:1313/projects/package-spm/</link>
       <pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/package-spm/</guid>
-      <description>&lt;p&gt;I developed a Julia package for real-time statistical process monitoring, integrating advanced algorithms and control charts to handle complex data types, such as sequential data, functional data, and structured observations. A paper illustrating package is set to appear in the &lt;em&gt;Journal of Statistical Software&lt;/em&gt; (2025+).&lt;/p&gt;</description>
+      <description>&lt;p&gt;I developed a Julia package for real-time statistical process monitoring, integrating advanced algorithms and control charts to handle complex data types, such as sequential data, functional data, and structured observations. A paper illustrating package has been published in the &lt;em&gt;Journal of Statistical Software&lt;/em&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Alternative parameter learning schemes for monitoring process stability</title>
