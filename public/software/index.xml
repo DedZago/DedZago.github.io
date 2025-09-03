@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Softwares on </title>
-    <link>http://localhost:1315/software/</link>
+    <link>https://dedzago.github.io/software/</link>
     <description>Recent content in Softwares on </description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 27 Aug 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1315/software/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://dedzago.github.io/software/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A software for modern statistical process monitoring</title>
-      <link>http://localhost:1315/software/package-spm/</link>
+      <link>https://dedzago.github.io/software/package-spm/</link>
       <pubDate>Tue, 27 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1315/software/package-spm/</guid>
+      <guid>https://dedzago.github.io/software/package-spm/</guid>
       <description>&lt;p&gt;I developed a Julia package for real-time statistical process monitoring, integrating advanced algorithms and control charts to handle complex data types, such as sequential data, functional data, and structured observations. A paper that accompanies the package has been published in the &lt;em&gt;Journal of Statistical Software&lt;/em&gt;.&lt;/p&gt;</description>
     </item>
   </channel>

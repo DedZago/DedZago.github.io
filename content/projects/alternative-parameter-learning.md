@@ -9,7 +9,7 @@ params:
     buttons:
         - icon: "fa-solid fa-share"
           btnText: "Journal article"
-          URL: "https://doi.org/10.1080/00224065.2024.2323585"
+          URL: "https://www.tandfonline.com/doi/full/10.1080/08982112.2023.2253891"
     image:  
         x: "images/works/alternative-parameter-learning/showcase.png"
         _2x: "images/works/alternative-parameter-learning/showcase.png"

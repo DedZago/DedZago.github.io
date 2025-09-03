@@ -514,3 +514,13 @@ a {
 a:hover {
     color: var(--ucd-navy);
 }
+
+/* Publications section title scaling */
+#publications h3 {
+    font-size: 1.25rem !important;
+}
+
+/* Software section title scaling */
+#software h3 {
+    font-size: 1.25rem !important;
+}
