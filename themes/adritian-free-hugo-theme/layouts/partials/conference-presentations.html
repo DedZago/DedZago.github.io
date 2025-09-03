@@ -1,0 +1,26 @@
+{{ if .Site.Data.homepage.conference_presentations.enable }}
+<section id="conference-presentations" class="section-conference-presentations section section--border-bottom rad-animation-group">
+    <div class="container">
+        <div class="row flex-column-reverse flex-md-row rad-fade-down">
+            <div class="col-12 col-md-8 mt-5 mt-sm-0">
+                {{ range .Site.Data.homepage.conference_presentations.items }}
+                <div class="conference-presentation">
+                    <div class="conference-presentation__date">{{ .date }}</div>
+                    <div class="conference-presentation__title">{{ .title }}</div>
+                    <div class="conference-presentation__type">{{ .type }}</div>
+                    <div class="conference-presentation__venue">{{ .venue }}</div>
+                </div>
+                {{ end }}
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="container-conference-presentations">
+                    <div class="row">
+                        <h2>{{ .Site.Data.homepage.conference_presentations.title }}</h2>
+                        <p class="lead">{{ .Site.Data.homepage.conference_presentations.description | safeHTML }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}

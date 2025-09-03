@@ -50,10 +50,15 @@ theme = "adritian-free-hugo-theme"
   URL = "#software"
   weight = 5
 
+  [[menu.header]]
+  name = "Presentations"
+  URL = "#conference-presentations"
+  weight = 6
+
   # [[menu.header]]
   # name = "Blog"
   # URL = "/blog"
-  # weight = 5
+  # weight = 7
 
   # [[menu.header]]
   # name = "Contact"
@@ -85,11 +90,16 @@ theme = "adritian-free-hugo-theme"
   URL = "#software"
   weight = 5
 
+  [[menu.footer]]
+  name = "Presentations"
+  URL = "#conference-presentations"
+  weight = 6
+
 
 
 [params]
 
-  sections = ["about-me", "education", "experience", "client-and-work", "software", "testimonial", "contact", "newsletter"]
+  sections = ["about-me", "education", "experience", "client-and-work", "software", "conference-presentations", "testimonial", "contact", "newsletter"]
 
   homepageExperienceCount = 6
 
