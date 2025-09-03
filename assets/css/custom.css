@@ -1,13 +1,13 @@
 /* You can customize theme styles here */
 .header .navbar-brand span:first-child{
-    color: #478079;
+    color: #007db8;
 }
 .header .container{
     padding-left: 10px;
 }
 
 html body ::selection{
-    background-color:#488079;color:#fff
+    background-color:#007db8;color:#fff
 }
 
 .profile-image img{
@@ -110,7 +110,7 @@ ul.book-category-content {
 }
 .book-content.featured::before {
     content: "\2605"; /* Unicode bullet symbol */
-    color: #478079;  /* Bullet color */
+    color: #007db8;  /* Bullet color */
 	/* Optional tweaks */
     font-weight: bold;
     padding-right: 10px;
@@ -129,7 +129,7 @@ li.book-content p{
 }
 
 .experience__company{
-    color: #478079;
+    color: #007db8;
 }
 
 .experience__location{
@@ -157,7 +157,7 @@ body.home div.experience{
 .experience a:hover, 
 .experience a:active{
     display: block;
-    background-color: #488079;
+    background-color: #007db8;
 }
 .experience.selected a > .experience__company,
 .experience:hover a > .experience__company,
@@ -269,7 +269,7 @@ aside.content-browser{
 .conference-presentation {
     margin-bottom: 30px;
     padding: 15px;
-    border-left: 3px solid #478079;
+    border-left: 3px solid #007db8;
     background-color: #f8f9fa;
     transition: all 0.3s ease;
 }
@@ -282,7 +282,7 @@ aside.content-browser{
 .conference-presentation__date {
     font-size: 14px;
     font-weight: 600;
-    color: #478079;
+    color: #007db8;
     margin-bottom: 5px;
 }
 
@@ -307,7 +307,7 @@ aside.content-browser{
 }
 
 .container-conference-presentations h2 {
-    color: #478079;
+    color: #007db8;
     margin-bottom: 20px;
 }
 
@@ -325,7 +325,7 @@ aside.content-browser{
 /* Education Section Styling */
 .education {
     padding: 20px;
-    border-left: 3px solid #478079;
+    border-left: 3px solid #007db8;
     background-color: #f8f9fa;
     transition: all 0.3s ease;
     margin-bottom: 20px;
@@ -341,7 +341,7 @@ aside.content-browser{
     white-space: nowrap;
     font-size: 18px;
     font-weight: 600;
-    color: #478079;
+    color: #007db8;
     margin-bottom: 15px;
 }
 
@@ -453,4 +453,60 @@ p.lead strong,
 .cv-btn-right {
     border-top-left-radius: 0 !important;
     border-bottom-left-radius: 0 !important;
+}
+
+/* UCD Color Theme Variables */
+:root {
+    --ucd-blue: #007db8;
+    --ucd-navy: #004377;
+    --ucd-navy-dark: #002542;
+    --ucd-gold: #fad239;
+    --ucd-gold-light: #ffdd54;
+    --ucd-rich-green: #03884a;
+    --ucd-bright-green: #6bbe51;
+}
+
+/* Enhanced hover states and interactions */
+.experience:hover a {
+    background-color: #f0f7ff !important;
+}
+
+.experience:hover a > .experience__company {
+    color: var(--ucd-navy) !important;
+}
+
+/* Button and link hover improvements */
+.btn-primary:hover {
+    background-color: var(--ucd-navy);
+    border-color: var(--ucd-navy);
+    color: var(--ucd-gold) !important;
+}
+
+/* Conference presentation hover with gold accent */
+.conference-presentation:hover {
+    background-color: #f0f7ff;
+    border-left-color: var(--ucd-gold);
+}
+
+.conference-presentation:hover .conference-presentation__date {
+    color: var(--ucd-navy);
+}
+
+/* Education section hover with gold accent */
+.education:hover {
+    background-color: #f0f7ff;
+    border-left-color: var(--ucd-gold);
+}
+
+.education:hover .education__title {
+    color: var(--ucd-navy);
+}
+
+/* Link colors and hover states */
+a {
+    color: var(--ucd-blue);
+}
+
+a:hover {
+    color: var(--ucd-navy);
 }
