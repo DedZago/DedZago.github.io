@@ -524,3 +524,17 @@ a:hover {
 #software h3 {
     font-size: 1.25rem !important;
 }
+
+/* Consistent section title colors */
+section h2,
+.container h2,
+#about h2,
+#experience h2,
+#education h2,
+#publications h2,
+#software h2,
+#testimonial h2,
+#newsletter h2,
+#contact h2 {
+    color: var(--ucd-navy) !important;
+}
