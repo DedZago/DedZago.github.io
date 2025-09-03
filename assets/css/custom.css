@@ -321,3 +321,61 @@ aside.content-browser{
         font-size: 15px;
     }
 }
+
+/* Education Section Styling */
+.education {
+    padding: 20px;
+    border-left: 3px solid #478079;
+    background-color: #f8f9fa;
+    transition: all 0.3s ease;
+    margin-bottom: 20px;
+    border-radius: 0 8px 8px 0;
+}
+
+.education:hover {
+    background-color: #e9ecef;
+    transform: translateX(5px);
+}
+
+.education__title {
+    white-space: nowrap;
+    font-size: 18px;
+    font-weight: 600;
+    color: #478079;
+    margin-bottom: 15px;
+}
+
+.education__degree {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.4;
+}
+
+.education__degree i {
+    color: #666;
+}
+
+.thesis-title {
+    font-size: 14px;
+    font-style: italic;
+    color: #666;
+    margin-left: 10px;
+    display: inline;
+    line-height: 1.4;
+}
+
+@media only screen and (max-width: 768px) {
+    .education {
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .education__title {
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+    
+    .education__degree {
+        font-size: 15px;
+    }
+}
