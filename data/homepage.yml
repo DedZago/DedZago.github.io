@@ -9,10 +9,10 @@ showcase:
   title: "Daniele Zago"
   subtitle: >
     Data Scientist
-  description: >
+  description: |
     Data Scientist @ <a target='_blank' href='https://www.optit.net/'>OPTIT S.r.l.</a>, Bologna 🇮🇹<br><br>
     
-    <strong>Ph.D. in Statistical Sciences</strong> with expertise in industrial statistics, online outlier detection, and stochastic optimization. I develop efficient algorithmic solutions and user-friendly applications for complex data-driven problems, with experience in both statistical consulting and software development.<br><br>
+    <strong>Ph.D. in Statistical Sciences</strong> with expertise in industrial statistics, online outlier detection, and stochastic optimization. Experienced in statistical consulting and software development.<br><br>
     
     <strong>Research interests:</strong><br>
     • Stochastic optimization algorithms<br>
@@ -94,7 +94,7 @@ experience:
 # Client & Work (Publications)
 client_and_work:
   title: "Publications"
-  description: "Selected research publications in statistical sciences, quality control, and process monitoring."
+  description: "Research articles in statistical sciences, quality control, and process monitoring."
   enable: true
 
 # Software
