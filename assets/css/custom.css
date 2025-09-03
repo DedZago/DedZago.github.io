@@ -144,6 +144,10 @@ body.home div.experience{
     padding-top: 50px;
 }
 
+body.home div.experience:first-child{
+    padding-top: 0;
+}
+
 .experience a {
     display: block;
     padding: 20px;
