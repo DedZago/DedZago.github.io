@@ -15,19 +15,5 @@
       <guid>http://localhost:1313/software/package-spm/</guid>
       <description>&lt;p&gt;I developed a Julia package for real-time statistical process monitoring, integrating advanced algorithms and control charts to handle complex data types, such as sequential data, functional data, and structured observations. A paper that accompanies the package has been published in the &lt;em&gt;Journal of Statistical Software&lt;/em&gt;.&lt;/p&gt;</description>
     </item>
-    <item>
-      <title>Stochastic Optimization Tools</title>
-      <link>http://localhost:1313/software/stochastic-optimization-tools/</link>
-      <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/software/stochastic-optimization-tools/</guid>
-      <description>&lt;p&gt;A collection of R and Julia implementations for stochastic optimization algorithms, including constrained optimization methods for industrial applications. Features efficient algorithms for control chart parameter tuning and real-time process optimization.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Mixed Data Monitoring Framework</title>
-      <link>http://localhost:1313/software/mixed-data-monitoring/</link>
-      <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/software/mixed-data-monitoring/</guid>
-      <description>&lt;p&gt;Implementation of statistical monitoring methods for mixed-type data (continuous, ordinal, categorical). Includes sequential monitoring capabilities under serial correlation with applications to quality control and process monitoring.&lt;/p&gt;</description>
-    </item>
   </channel>
 </rss>

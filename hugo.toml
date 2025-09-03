@@ -26,6 +26,11 @@ theme = "adritian-free-hugo-theme"
 [menu]
 
   [[menu.header]]
+  name = "Home"
+  URL = "#about-me"
+  weight = 1
+
+  [[menu.header]]
   name = "Education"
   URL = "#education"
   weight = 2
@@ -56,6 +61,11 @@ theme = "adritian-free-hugo-theme"
   # weight = 6
 
   [[menu.footer]]
+  name = "Home"
+  URL = "#about-me"
+  weight = 1
+
+  [[menu.footer]]
   name = "Education"
   URL = "#education"
   weight = 2
@@ -79,7 +89,7 @@ theme = "adritian-free-hugo-theme"
 
 [params]
 
-  sections = ["showcase", "about", "education", "experience", "client-and-work", "software", "testimonial", "contact", "newsletter"]
+  sections = ["about-me", "education", "experience", "client-and-work", "software", "testimonial", "contact", "newsletter"]
 
   homepageExperienceCount = 6
 
