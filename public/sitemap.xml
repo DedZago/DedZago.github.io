@@ -2,44 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://dedzago.github.io/</loc>
     <lastmod>2024-08-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/ovetti/</loc>
+    <loc>https://dedzago.github.io/projects/ovetti/</loc>
     <lastmod>2024-08-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/</loc>
+    <loc>https://dedzago.github.io/projects/</loc>
     <lastmod>2024-08-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/stochapprox/</loc>
+    <loc>https://dedzago.github.io/projects/stochapprox/</loc>
     <lastmod>2024-08-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/software/package-spm/</loc>
+    <loc>https://dedzago.github.io/software/package-spm/</loc>
     <lastmod>2024-08-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/software/</loc>
+    <loc>https://dedzago.github.io/software/</loc>
     <lastmod>2024-08-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/ba-bisection-control-limit/</loc>
+    <loc>https://dedzago.github.io/projects/ba-bisection-control-limit/</loc>
     <lastmod>2024-08-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/mixed-monitoring/</loc>
+    <loc>https://dedzago.github.io/projects/mixed-monitoring/</loc>
     <lastmod>2024-08-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/projects/alternative-parameter-learning/</loc>
+    <loc>https://dedzago.github.io/projects/alternative-parameter-learning/</loc>
     <lastmod>2021-08-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/experience/data-scientist-at-optit/</loc>
+    <loc>https://dedzago.github.io/experience/data-scientist-at-optit/</loc>
     <lastmod>2008-12-01T00:00:00+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/experience/</loc>
+    <loc>https://dedzago.github.io/experience/</loc>
     <lastmod>2008-12-01T00:00:00+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/experience/phd/</loc>
+    <loc>https://dedzago.github.io/experience/phd/</loc>
     <lastmod>2007-12-01T00:00:00+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://dedzago.github.io/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://dedzago.github.io/tags/</loc>
   </url>
 </urlset>
