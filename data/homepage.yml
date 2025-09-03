@@ -68,11 +68,21 @@ education:
   items:
     - university: University of Padova — <i> Statistical Sciences </i>
       degree: |
-        2021 — 2024 &nbsp; <i>Doctor of Philosophy (Ph.D.)</i> <span class="thesis-title">— "Your Ph.D. thesis title goes here"</span><br>
-
-        2019 — 2021 &nbsp; <i>Master of Science (M.Sc.)</i> <span class="thesis-title">— "Your Master's thesis title goes here"</span><br>
-
-        2016 — 2019 &nbsp; <i>Bachelor of Science (B.Sc.)</i> <span class="thesis-title">— "Your Bachelor's thesis title goes here"</span> 
+        <div class="degree-entry">
+          <span class="degree-period">2021 — 2024</span>
+          <span class="degree-name"><i>Doctor of Philosophy (Ph.D.)</i></span>
+          <span class="thesis-title">— "Your Ph.D. thesis title goes here"</span>
+        </div>
+        <div class="degree-entry">
+          <span class="degree-period">2019 — 2021</span>
+          <span class="degree-name"><i>Master of Science (M.Sc.)</i></span>
+          <span class="thesis-title">— "Your Master's thesis title goes here"</span>
+        </div>
+        <div class="degree-entry">
+          <span class="degree-period">2016 — 2019</span>
+          <span class="degree-name"><i>Bachelor of Science (B.Sc.)</i></span>
+          <span class="thesis-title">— "Your Bachelor's thesis title goes here"</span>
+        </div> 
 
 # experience
 experience:

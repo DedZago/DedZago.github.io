@@ -355,13 +355,67 @@ aside.content-browser{
     color: #666;
 }
 
+/* Degree entry styling for proper alignment */
+.degree-entry {
+    display: grid;
+    grid-template-columns: 140px 280px 1fr;
+    gap: 15px;
+    align-items: baseline;
+    margin-bottom: 8px;
+}
+
+.degree-period {
+    font-size: 16px;
+    color: #333;
+    font-weight: normal;
+}
+
+.degree-name {
+    font-size: 16px;
+    color: #333;
+}
+
+.degree-name i {
+    color: #666;
+}
+
 .thesis-title {
     font-size: 14px;
     font-style: italic;
     color: #666;
-    margin-left: 10px;
-    display: inline;
     line-height: 1.4;
+}
+
+/* Responsive adjustments for mobile */
+@media only screen and (max-width: 768px) {
+    .degree-entry {
+        grid-template-columns: 1fr;
+        gap: 5px;
+        margin-bottom: 15px;
+    }
+    
+    .degree-period {
+        font-size: 15px;
+        font-weight: 600;
+    }
+    
+    .degree-name {
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    
+    .thesis-title {
+        margin-left: 10px;
+        font-size: 13px;
+    }
+}
+
+/* Ensure strong tags work in showcase lead text */
+p.lead strong,
+.lead strong,
+.rad-showcase p.lead strong,
+.rad-showcase .container p.lead strong {
+    font-weight: 700 !important;
 }
 
 @media only screen and (max-width: 768px) {
@@ -378,4 +432,25 @@ aside.content-browser{
     .education__degree {
         font-size: 15px;
     }
+}
+
+/* Combined CV buttons styling */
+.cv-button-group {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.cv-button-group .btn {
+    margin: 0 !important;
+}
+
+.cv-btn-left {
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    border-right: 1px solid rgba(255, 255, 255, 0.3) !important;
+}
+
+.cv-btn-right {
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
 }
