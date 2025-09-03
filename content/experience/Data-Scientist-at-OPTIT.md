@@ -10,5 +10,5 @@ duration: "2024-present"
 ---
 ### Data Scientist at OPTIT S.r.l.
 
-I joined OPTIT S.r.l. as a Data Scientist to leverage my statistical expertise to solve complex, real-world problems. My goal is to drive innovation in logistics and supply chain optimization by applying cutting-edge machine learning techniques and developing novel, data-driven solutions.
+I joined OPTIT S.r.l. as a Data Scientist to leverage my statistical expertise in solving complex, real-world problems. Part of my has focused on implementing data science solutions for energy forecasting and anomaly detection. Furthermore, I'm developing a novel routing algorithm for the periodic constrained multiple vehicle routing problem. Through these projects, I had the chance to deliver innovative data-driven solutions in logistics and supply chain optimization.
 

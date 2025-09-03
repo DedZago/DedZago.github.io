@@ -24,9 +24,9 @@
     </item>
     <item>
       <title>A software for modern statistical process monitoring</title>
-      <link>http://localhost:1313/projects/package-spm/</link>
+      <link>http://localhost:1313/software/package-spm/</link>
       <pubDate>Tue, 27 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/package-spm/</guid>
+      <guid>http://localhost:1313/software/package-spm/</guid>
       <description>&lt;p&gt;I developed a Julia package for real-time statistical process monitoring, integrating advanced algorithms and control charts to handle complex data types, such as sequential data, functional data, and structured observations. A paper that accompanies the package has been published in the &lt;em&gt;Journal of Statistical Software&lt;/em&gt;.&lt;/p&gt;</description>
     </item>
     <item>
@@ -55,14 +55,14 @@
       <link>http://localhost:1313/experience/data-scientist-at-optit/</link>
       <pubDate>Mon, 01 Dec 2008 00:00:00 +0100</pubDate>
       <guid>http://localhost:1313/experience/data-scientist-at-optit/</guid>
-      <description>&lt;h3 id=&#34;data-scientist-at-optit-srl&#34;&gt;Data Scientist at OPTIT S.r.l.&lt;/h3&gt;&#xA;&lt;p&gt;I joined OPTIT S.r.l. as a Data Scientist to leverage my statistical expertise to solve complex, real-world problems. My goal is to drive innovation in logistics and supply chain optimization by applying cutting-edge machine learning techniques and developing novel, data-driven solutions.&lt;/p&gt;</description>
+      <description>&lt;h3 id=&#34;data-scientist-at-optit-srl&#34;&gt;Data Scientist at OPTIT S.r.l.&lt;/h3&gt;&#xA;&lt;p&gt;I joined OPTIT S.r.l. as a Data Scientist to leverage my statistical expertise in solving complex, real-world problems. Part of my has focused on implementing data science solutions for energy forecasting and anomaly detection. Furthermore, I&amp;rsquo;m developing a novel routing algorithm for the periodic constrained multiple vehicle routing problem. Through these projects, I had the chance to deliver innovative data-driven solutions in logistics and supply chain optimization.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Ph.D. Student</title>
       <link>http://localhost:1313/experience/phd/</link>
       <pubDate>Sat, 01 Dec 2007 00:00:00 +0100</pubDate>
       <guid>http://localhost:1313/experience/phd/</guid>
-      <description>&lt;h3 id=&#34;phd-student-in-statistical-sciences&#34;&gt;Ph.D. Student in Statistical Sciences&lt;/h3&gt;&#xA;&lt;p&gt;During my Ph.D. in Statistical Sciences at Università degli Studi di Padova, I focused on advancing my technical expertise in industrial statistics, particularly in real-time outlier detection and stochastic optimization. My work in these areas has been recognized through multiple publications in leading journals, such as &lt;em&gt;Journal of Quality Technology&lt;/em&gt; and &lt;em&gt;Quality Engineering&lt;/em&gt;.&#xA;Furthermore, I developed a statistical package in &lt;strong&gt;Julia&lt;/strong&gt;, which has been accepted as an article in the &lt;em&gt;Journal of Statistical Software&lt;/em&gt;.&lt;/p&gt;</description>
+      <description>&lt;h3 id=&#34;phd-student-in-statistical-sciences&#34;&gt;Ph.D. Student in Statistical Sciences&lt;/h3&gt;&#xA;&lt;p&gt;During my Ph.D. in Statistical Sciences at Università degli Studi di Padova, I focused on advancing my technical expertise in industrial statistics, particularly in real-time outlier detection and stochastic optimization. My research contributions have resulted in publications in several journals, such as the &lt;em&gt;Journal of Quality Technology&lt;/em&gt;, &lt;em&gt;Statistics &amp;amp; Computing&lt;/em&gt;, &lt;em&gt;Quality Engineering&lt;/em&gt;, and the &lt;em&gt;Journal of Statistical Software&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Additionally, I applied my knowledge in real-world contexts, taking part in consulting projects related to statistical process monitoring.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

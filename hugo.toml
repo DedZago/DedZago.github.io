@@ -37,8 +37,13 @@ theme = "adritian-free-hugo-theme"
 
   [[menu.header]]
   name = "Publications"
-  URL = "#client-and-work"
+  URL = "#publications"
   weight = 4
+
+  [[menu.header]]
+  name = "Software"
+  URL = "#software"
+  weight = 5
 
   # [[menu.header]]
   # name = "Blog"
@@ -62,14 +67,19 @@ theme = "adritian-free-hugo-theme"
 
   [[menu.footer]]
   name = "Publications"
-  URL = "#client-and-work"
+  URL = "#publications"
   weight = 4
+
+  [[menu.footer]]
+  name = "Software"
+  URL = "#software"
+  weight = 5
 
 
 
 [params]
 
-  sections = ["showcase", "about", "education", "experience", "client-and-work", "testimonial", "contact", "newsletter"]
+  sections = ["showcase", "about", "education", "experience", "client-and-work", "software", "testimonial", "contact", "newsletter"]
 
   homepageExperienceCount = 6
 

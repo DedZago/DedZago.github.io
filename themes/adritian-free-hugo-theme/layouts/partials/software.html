@@ -1,29 +1,42 @@
-{{/* Used for the Client&Works section in the homepage */}}
-{{/* If some content is missing/not displayed, check the images for the client/work */}}
+{{/* Used for the Software section in the homepage */}}
+{{/* If some content is missing/not displayed, check the images for the software */}}
 
 
-{{ if .Site.Data.homepage.client_and_work.enable }}
-<section id="publications" class="section section--border-bottom">
-  <div class="container publications-container">
+{{ if .Site.Data.homepage.software.enable }}
+<section id="software" class="section section--border-bottom">
+  <div class="container software-container">
     <h2 class="rad-animation-group rad-fade-down">
-      {{ .Site.Data.homepage.client_and_work.title }}
+      {{ .Site.Data.homepage.software.title }}
     </h2>
-    {{ if .Site.Data.homepage.client_and_work.description }}
+    {{ if .Site.Data.homepage.software.description }}
     <p class="lead text-center rad-animation-group rad-fade-down">
-      {{ .Site.Data.homepage.client_and_work.description | safeHTML }}
+      {{ .Site.Data.homepage.software.description | safeHTML }}
     </p>
     {{ end }}
-    {{/* Projects */}}
-    {{ $projects := (where .Site.RegularPages.ByDate.Reverse "Type" "projects") }}          
-    {{ range $index, $element := $projects }}
+    {{/* Software Projects */}}
+    {{ $software := (where .Site.RegularPages.ByDate.Reverse "Type" "software") }}          
+    {{ range $index, $element := $software }}
     {{ $is_even := eq (mod $index 2) 0 }}
     {{ with $element }}
     <div
       class="row row--padded rad-animation-group rad-fade-down 
-      {{ if $is_even }}flex-md-row even-row{{ else }}uneven-row{{ end }}"
+      {{ if $is_even }}flex-column-reverse flex-md-row even-row{{ else }}uneven-row{{ end }}"
     >
       {{ if $is_even }}
-      <div class="col-12 col-md-7 pl-md-0 text-right order-2 order-md-2">
+      <div class="col-12 col-md-5 mt-4 mt-md-0 my-md-auto even">
+        <h3>{{ .Params.title }}</h3>
+        <p class="lead">
+          {{ .Page.Content }}
+        </p>
+
+        {{ range .Params.buttons }}
+        <a href="{{ .URL | absURL }}" target="_blank"  class="btn btn-primary">
+          {{ .btnText }} &nbsp; <i class="{{ .icon }}"></i>
+        </a>
+        {{ end }}
+
+      </div>
+      <div class="col-12 col-md-7 pl-md-0 text-right">
 
         {{ $img := resources.Get .Params.image.x }}
         {{ $img2x := resources.Get .Params.image._2x }}
@@ -44,19 +57,6 @@
           />
         </picture>
         {{ end }}
-        {{ end }}
-
-      </div>
-      <div class="col-12 col-md-5 mt-4 mt-md-0 my-md-auto even order-1 order-md-1">
-        <h3>{{ .Params.title }}</h3>
-        <p class="lead">
-          {{ .Page.Content }}
-        </p>
-
-        {{ range .Params.buttons }}
-        <a href="{{ .URL | absURL }}" target="_blank"  class="btn btn-primary">
-          {{ .btnText }} &nbsp; <i class="{{ .icon }}"></i>
-        </a>
         {{ end }}
 
       </div>

@@ -6,19 +6,19 @@
     <description>Recent content in Projects on </description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Aug 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Monitoring of complex geometrical shapes</title>
       <link>http://localhost:1313/projects/ovetti/</link>
-      <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 29 Aug 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/ovetti/</guid>
       <description>&lt;p&gt;I developed an innovative statistical quality control method for detecting shape defects in complex geometries obtained via additive manufacturing.&#xA;I introduced a novel nonparametric control chart based on kurtosis analysis which provides superior defect detection for 3D-printed objects compared to existing approaches.&#xA;A paper detailing the methodology has been submitted for review.&lt;/p&gt;</description>
     </item>
     <item>
       <title>A doubly-stochastic constrained optimization algorithm</title>
       <link>http://localhost:1313/projects/stochapprox/</link>
-      <pubDate>Tue, 27 Aug 2024 09:53:42 +0200</pubDate>
+      <pubDate>Tue, 27 Aug 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/stochapprox/</guid>
       <description>&lt;p&gt;I designed a novel stochastic optimization algorithm with stochastic constraints, aimed at optimizing control chart tuning parameters with greater efficiency compared to traditional numerical methods. This innovative approach has been published in the &lt;em&gt;Journal of Quality Technology&lt;/em&gt;.&lt;/p&gt;</description>
     </item>
@@ -35,13 +35,6 @@
       <pubDate>Thu, 22 Aug 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/mixed-monitoring/</guid>
       <description>&lt;p&gt;I developed a general methodology to monitor processes involving mixed-type data (continuous, ordinal, categorical), common in real-world applications. The method enables effective sequential monitoring under serial correlation and has been published in the &lt;em&gt;Journal of Quality Technology&lt;/em&gt;.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>A software for modern statistical process monitoring</title>
-      <link>http://localhost:1313/projects/package-spm/</link>
-      <pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/package-spm/</guid>
-      <description>&lt;p&gt;I developed a Julia package for real-time statistical process monitoring, integrating advanced algorithms and control charts to handle complex data types, such as sequential data, functional data, and structured observations. A paper illustrating package has been published in the &lt;em&gt;Journal of Statistical Software&lt;/em&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Alternative parameter learning schemes for monitoring process stability</title>

@@ -10,9 +10,15 @@ showcase:
   subtitle: >
     Data Scientist
   description: >
-    Currently working as a Data Scientist at <a target='_blank' href='https://www.optit.net/'>OPTIT S.r.l.</a>, Bologna 🇮🇹<br>
-
-    Ph.D. in Statistical Sciences specializing in industrial statistics, online outlier detection, and stochastic optimization. I develop efficient algorithmic solutions and user-friendly applications for complex data-driven problems. I have experience in both statistical consulting, and software development. 
+    Currently working as a Data Scientist at <a target='_blank' href='https://www.optit.net/'>OPTIT S.r.l.</a>, Bologna 🇮🇹<br><br>
+    
+    <strong>Ph.D. in Statistical Sciences</strong> with expertise in industrial statistics, online outlier detection, and stochastic optimization. I develop efficient algorithmic solutions and user-friendly applications for complex data-driven problems, with experience in both statistical consulting and software development.<br><br>
+    
+    <strong>Research interests:</strong><br>
+    • Stochastic optimization algorithms<br>
+    • Functional data analysis<br>
+    • Statistical software development<br>
+    • Quality control and process monitoring
   image:
     x: "images/showcase/user-picture.png"
     _2x: "images/showcase/user-picture@2x.png"
@@ -41,21 +47,15 @@ showcase:
 # about
 about:
   enable: false
-  title: "Who am I?"
+  title: "About Me"
   content: >
     <p class="lead">
-      I am a statistician that applies data-driven methodologies to develop solutions to solve complex problems. I am a fast learner with the passion of discovering new things.
-      </p>
-      <p class="lead">
-      I have pursued a doctoral degree with the aim of deepening my knowledge, and I have experience in statistical consulting as well as software development.
-      Most the projects I was involved in required efficient algorithmic solutions, coupled with the development of user interfaces to allow user-friendly applications.<br>
-
-      The things that I look forward the most in a problem are challenges and novel solutions. Because of this, I have worked on a range of different topics, such as <i>3D meshes</i>, <i>stochastic optimization</i>, and <i>efficient algorithms</i>. 
+      Ph.D. in Statistical Sciences with expertise in developing innovative methodologies for industrial applications, particularly in <strong>outlier detection</strong>, <strong>stochastic optimization</strong>, and <strong>process monitoring</strong>. I specialize in creating efficient algorithmic solutions for complex data-driven problems and bridging theoretical research with practical software implementation.
     </p>
   button:
-    enable: false
-    icon: "icon-smile-fill"
-    btnText: "About Me"
+    enable: true
+    icon: "fab fa-linkedin"
+    btnText: "Professional Profile"
     URL: "https://www.linkedin.com/in/daniele-zago/"
   image:
     x: "images/who-am-i/stan.png"
@@ -91,9 +91,16 @@ experience:
     btnText: "Download My CV"
     URL: "/pdf/zago_cv_english.pdf"
 
-# Client & Work
+# Client & Work (Publications)
 client_and_work:
   title: "Publications"
+  description: "Selected research publications in statistical sciences, quality control, and process monitoring."
+  enable: true
+
+# Software
+software:
+  title: "Software"
+  description: "Open-source software packages and tools for statistical computing and data analysis."
   enable: true
   
 # testimonial
