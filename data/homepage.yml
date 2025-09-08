@@ -87,12 +87,12 @@ education:
           <span class="degree-name"><i>Visiting research scholar, supervisor: Prof. Peihua Qiu</i></span>
         </div>
         <div class="degree-location">Gainesville, FL, USA</div>
-    - university: Istituto Nazionale di Fisica Nucleare and University of Perugia
+    - university: INFN and University of Perugia
       degree: |
         <div class="degree-entry">
           <span class="degree-period">Oct 2022</span>
           <span class="degree-name"><i>Thirteenth INFN International School on Efficient Scientific Computing</i></span>
-        </div>
+        </div><br>
         <div class="degree-details">• Efficient C++ programming<br>• GPU programming with CUDA</div>
     - university: University of Perugia
       degree: |
