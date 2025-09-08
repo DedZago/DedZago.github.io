@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on </title>
-    <link>https://dedzago.github.io/projects/</link>
+    <link>http://localhost:1313/projects/</link>
     <description>Recent content in Projects on </description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 29 Aug 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://dedzago.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Monitoring of complex geometrical shapes</title>
-      <link>https://dedzago.github.io/projects/ovetti/</link>
+      <link>http://localhost:1313/projects/ovetti/</link>
       <pubDate>Thu, 29 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://dedzago.github.io/projects/ovetti/</guid>
+      <guid>http://localhost:1313/projects/ovetti/</guid>
       <description>&lt;p&gt;I developed an innovative statistical quality control method for detecting shape defects in complex geometries obtained via additive manufacturing.&#xA;I introduced a novel nonparametric control chart based on kurtosis analysis which provides superior defect detection for 3D-printed objects compared to existing approaches.&#xA;A paper detailing the methodology has been submitted for review.&lt;/p&gt;</description>
     </item>
     <item>
       <title>A doubly-stochastic constrained optimization algorithm</title>
-      <link>https://dedzago.github.io/projects/stochapprox/</link>
+      <link>http://localhost:1313/projects/stochapprox/</link>
       <pubDate>Tue, 27 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://dedzago.github.io/projects/stochapprox/</guid>
+      <guid>http://localhost:1313/projects/stochapprox/</guid>
       <description>&lt;p&gt;I designed a novel stochastic optimization algorithm with stochastic constraints, aimed at optimizing control chart tuning parameters with greater efficiency compared to traditional numerical methods. This innovative approach has been published in the &lt;em&gt;Journal of Quality Technology&lt;/em&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>An improved bisection-type algorithm for control chart calibration</title>
-      <link>https://dedzago.github.io/projects/ba-bisection-control-limit/</link>
+      <link>http://localhost:1313/projects/ba-bisection-control-limit/</link>
       <pubDate>Mon, 26 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://dedzago.github.io/projects/ba-bisection-control-limit/</guid>
+      <guid>http://localhost:1313/projects/ba-bisection-control-limit/</guid>
       <description>&lt;p&gt;I developed a modified bisection algorithm for computing control limits in complex settings where standard methods are inefficient. The approach removes the need for a predefined search range and scales efficiently to multi-chart scenarios. The method has been published in &lt;em&gt;Statistics and Computing&lt;/em&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>A General Framework for Monitoring Mixed Data</title>
-      <link>https://dedzago.github.io/projects/mixed-monitoring/</link>
+      <link>http://localhost:1313/projects/mixed-monitoring/</link>
       <pubDate>Thu, 22 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://dedzago.github.io/projects/mixed-monitoring/</guid>
+      <guid>http://localhost:1313/projects/mixed-monitoring/</guid>
       <description>&lt;p&gt;I developed a general methodology to monitor processes involving mixed-type data (continuous, ordinal, categorical), common in real-world applications. The method enables effective sequential monitoring under serial correlation and has been published in the &lt;em&gt;Journal of Quality Technology&lt;/em&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Alternative parameter learning schemes for monitoring process stability</title>
-      <link>https://dedzago.github.io/projects/alternative-parameter-learning/</link>
+      <link>http://localhost:1313/projects/alternative-parameter-learning/</link>
       <pubDate>Wed, 25 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://dedzago.github.io/projects/alternative-parameter-learning/</guid>
+      <guid>http://localhost:1313/projects/alternative-parameter-learning/</guid>
       <description>&lt;p&gt;I formalized the theoretical behavior of parameter learning schemes in relation to outlier detection performance in control charts. This work enabled the generalization of alternative parameter learning methods, leading to a more efficient and accurate detection scheme compared to traditional approaches.&#xA;This work has been published in &lt;em&gt;Quality Engineering&lt;/em&gt;.&lt;/p&gt;</description>
     </item>
   </channel>

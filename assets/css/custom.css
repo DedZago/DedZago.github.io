@@ -362,8 +362,8 @@ aside.content-browser{
 /* Degree entry styling for proper alignment */
 .degree-entry {
     display: grid;
-    grid-template-columns: 140px 1fr;
-    gap: 15px;
+    grid-template-columns: max-content 1fr;
+    gap: 20px;
     align-items: baseline;
     margin-bottom: 8px;
 }

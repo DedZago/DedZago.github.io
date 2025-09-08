@@ -79,6 +79,26 @@ education:
         <div class="degree-entry">
           <span class="degree-period">2016 — 2019</span>
           <span class="degree-name"><i>Bachelor of Science (B.Sc.)</i></span>
+        </div>
+    - university: University of Florida — <i> Department of Biostatistics </i>
+      degree: |
+        <div class="degree-entry">
+          <span class="degree-period">Jan 2023 — Dec 2023</span>
+          <span class="degree-name"><i>Visiting research scholar, supervisor: Prof. Peihua Qiu</i></span>
+        </div>
+        <div class="degree-location">Gainesville, FL, USA</div>
+    - university: Istituto Nazionale di Fisica Nucleare and University of Perugia
+      degree: |
+        <div class="degree-entry">
+          <span class="degree-period">Oct 2022</span>
+          <span class="degree-name"><i>Thirteenth INFN International School on Efficient Scientific Computing</i></span>
+        </div>
+        <div class="degree-details">• Efficient C++ programming<br>• GPU programming with CUDA</div>
+    - university: University of Perugia
+      degree: |
+        <div class="degree-entry">
+          <span class="degree-period">Jul 2020</span>
+          <span class="degree-name"><i>Summer school in Mathematics</i></span>
         </div> 
 
 # experience

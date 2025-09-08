@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <link>https://dedzago.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on </description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 29 Aug 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://dedzago.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Monitoring of complex geometrical shapes</title>
-      <link>https://dedzago.github.io/projects/ovetti/</link>
+      <link>http://localhost:1313/projects/ovetti/</link>
       <pubDate>Thu, 29 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://dedzago.github.io/projects/ovetti/</guid>
+      <guid>http://localhost:1313/projects/ovetti/</guid>
       <description>&lt;p&gt;I developed an innovative statistical quality control method for detecting shape defects in complex geometries obtained via additive manufacturing.&#xA;I introduced a novel nonparametric control chart based on kurtosis analysis which provides superior defect detection for 3D-printed objects compared to existing approaches.&#xA;A paper detailing the methodology has been submitted for review.&lt;/p&gt;</description>
     </item>
     <item>
       <title>A doubly-stochastic constrained optimization algorithm</title>
-      <link>https://dedzago.github.io/projects/stochapprox/</link>
+      <link>http://localhost:1313/projects/stochapprox/</link>
       <pubDate>Tue, 27 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://dedzago.github.io/projects/stochapprox/</guid>
+      <guid>http://localhost:1313/projects/stochapprox/</guid>
       <description>&lt;p&gt;I designed a novel stochastic optimization algorithm with stochastic constraints, aimed at optimizing control chart tuning parameters with greater efficiency compared to traditional numerical methods. This innovative approach has been published in the &lt;em&gt;Journal of Quality Technology&lt;/em&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>A software for modern statistical process monitoring</title>
-      <link>https://dedzago.github.io/software/package-spm/</link>
+      <link>http://localhost:1313/software/package-spm/</link>
       <pubDate>Tue, 27 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://dedzago.github.io/software/package-spm/</guid>
+      <guid>http://localhost:1313/software/package-spm/</guid>
       <description>&lt;p&gt;I developed a Julia package for real-time statistical process monitoring, integrating advanced algorithms and control charts to handle complex data types, such as sequential data, functional data, and structured observations. A paper that accompanies the package has been published in the &lt;em&gt;Journal of Statistical Software&lt;/em&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>An improved bisection-type algorithm for control chart calibration</title>
-      <link>https://dedzago.github.io/projects/ba-bisection-control-limit/</link>
+      <link>http://localhost:1313/projects/ba-bisection-control-limit/</link>
       <pubDate>Mon, 26 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://dedzago.github.io/projects/ba-bisection-control-limit/</guid>
+      <guid>http://localhost:1313/projects/ba-bisection-control-limit/</guid>
       <description>&lt;p&gt;I developed a modified bisection algorithm for computing control limits in complex settings where standard methods are inefficient. The approach removes the need for a predefined search range and scales efficiently to multi-chart scenarios. The method has been published in &lt;em&gt;Statistics and Computing&lt;/em&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>A General Framework for Monitoring Mixed Data</title>
-      <link>https://dedzago.github.io/projects/mixed-monitoring/</link>
+      <link>http://localhost:1313/projects/mixed-monitoring/</link>
       <pubDate>Thu, 22 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://dedzago.github.io/projects/mixed-monitoring/</guid>
+      <guid>http://localhost:1313/projects/mixed-monitoring/</guid>
       <description>&lt;p&gt;I developed a general methodology to monitor processes involving mixed-type data (continuous, ordinal, categorical), common in real-world applications. The method enables effective sequential monitoring under serial correlation and has been published in the &lt;em&gt;Journal of Quality Technology&lt;/em&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Alternative parameter learning schemes for monitoring process stability</title>
-      <link>https://dedzago.github.io/projects/alternative-parameter-learning/</link>
+      <link>http://localhost:1313/projects/alternative-parameter-learning/</link>
       <pubDate>Wed, 25 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://dedzago.github.io/projects/alternative-parameter-learning/</guid>
+      <guid>http://localhost:1313/projects/alternative-parameter-learning/</guid>
       <description>&lt;p&gt;I formalized the theoretical behavior of parameter learning schemes in relation to outlier detection performance in control charts. This work enabled the generalization of alternative parameter learning methods, leading to a more efficient and accurate detection scheme compared to traditional approaches.&#xA;This work has been published in &lt;em&gt;Quality Engineering&lt;/em&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Data Scientist</title>
-      <link>https://dedzago.github.io/experience/data-scientist-at-optit/</link>
+      <link>http://localhost:1313/experience/data-scientist-at-optit/</link>
       <pubDate>Mon, 01 Dec 2008 00:00:00 +0100</pubDate>
-      <guid>https://dedzago.github.io/experience/data-scientist-at-optit/</guid>
+      <guid>http://localhost:1313/experience/data-scientist-at-optit/</guid>
       <description>&lt;h3 id=&#34;data-scientist-at-optit-srl&#34;&gt;Data Scientist at OPTIT S.r.l.&lt;/h3&gt;&#xA;&lt;p&gt;I joined OPTIT S.r.l. as a Data Scientist to leverage my statistical expertise in solving complex, real-world problems. Part of my has focused on implementing data science solutions for energy forecasting and anomaly detection. Furthermore, I&amp;rsquo;m developing a novel routing algorithm for the periodic constrained multiple vehicle routing problem. Through these projects, I had the chance to deliver innovative data-driven solutions in logistics and supply chain optimization.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Ph.D. Student</title>
-      <link>https://dedzago.github.io/experience/phd/</link>
+      <link>http://localhost:1313/experience/phd/</link>
       <pubDate>Sat, 01 Dec 2007 00:00:00 +0100</pubDate>
-      <guid>https://dedzago.github.io/experience/phd/</guid>
+      <guid>http://localhost:1313/experience/phd/</guid>
       <description>&lt;h3 id=&#34;phd-student-in-statistical-sciences&#34;&gt;Ph.D. Student in Statistical Sciences&lt;/h3&gt;&#xA;&lt;p&gt;During my Ph.D. in Statistical Sciences at Università degli Studi di Padova, I focused on advancing my technical expertise in industrial statistics, particularly in real-time outlier detection and stochastic optimization. My research contributions have resulted in publications in several journals, such as the &lt;em&gt;Journal of Quality Technology&lt;/em&gt;, &lt;em&gt;Statistics &amp;amp; Computing&lt;/em&gt;, &lt;em&gt;Quality Engineering&lt;/em&gt;, and the &lt;em&gt;Journal of Statistical Software&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Additionally, I applied my knowledge in real-world contexts, taking part in consulting projects related to statistical process monitoring.&lt;/p&gt;</description>
     </item>
   </channel>
