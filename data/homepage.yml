@@ -108,20 +108,20 @@ experience:
   description: |
     Experienced in designing advanced statistical algorithms, specializing in real-time outlier detection and stochastic optimization.<br>
 
-    Proven ability to deliver data-driven solutions in consulting projects, translating technical requirements into actionable strategies, and consistently meeting client expectations.
+    Demonstrated ability to deliver data-driven solutions in consulting projects, and consistently meeting expectations.
   button:
     icon: "fab fa-linkedin"
     btnText: "Linkedin"
     URL: "https://www.linkedin.com/in/daniele-zago/"
   button2:
     icon: "fa-solid fa-file-pdf"
-    btnText: "Download My CV"
+    btnText: "Download My CV
     URL: "/pdf/zago_cv_english.pdf"
 
 # Client & Work (Publications)
 client_and_work:
   title: "Publications"
-  description: "Research articles in statistical sciences, quality control, and process monitoring."
+  description: "Research articles in statistical sciences, process monitoring, and stochastic optimization."
   enable: true
 
 # Software
