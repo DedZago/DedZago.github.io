@@ -6,8 +6,15 @@
     <description>Recent content on </description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 29 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 22 Aug 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Transparent sequential learning and monitoring of processes with mixed data based on a likelihood-ratio formulation</title>
+      <link>http://localhost:1313/projects/mixed-monitoring-2/</link>
+      <pubDate>Fri, 22 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/mixed-monitoring-2/</guid>
+      <description>&lt;p&gt;We developed a likelihood-ratio methodology to monitor processes involving continuous and categorical data. The approach makes use of adaptive kernel density estimation in order to approximate the likelihood ratio, thus providing efficient detection power. A manuscript will be soon submitted to &lt;em&gt;Technometrics&lt;/em&gt;.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Monitoring of complex geometrical shapes</title>
       <link>http://localhost:1313/projects/ovetti/</link>
@@ -37,11 +44,11 @@
       <description>&lt;p&gt;I developed a modified bisection algorithm for computing control limits in complex settings where standard methods are inefficient. The approach removes the need for a predefined search range and scales efficiently to multi-chart scenarios. The method has been published in &lt;em&gt;Statistics and Computing&lt;/em&gt;.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>A General Framework for Monitoring Mixed Data</title>
+      <title>A general framework for monitoring mixed data</title>
       <link>http://localhost:1313/projects/mixed-monitoring/</link>
       <pubDate>Thu, 22 Aug 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/mixed-monitoring/</guid>
-      <description>&lt;p&gt;I developed a general methodology to monitor processes involving mixed-type data (continuous, ordinal, categorical), common in real-world applications. The method enables effective sequential monitoring under serial correlation and has been published in the &lt;em&gt;Journal of Quality Technology&lt;/em&gt;.&lt;/p&gt;</description>
+      <description>&lt;p&gt;We developed a general methodology to monitor processes involving mixed-type data (continuous, ordinal, categorical), common in real-world applications. The method enables effective sequential monitoring under serial correlation and has been published in the &lt;em&gt;Journal of Quality Technology&lt;/em&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Alternative parameter learning schemes for monitoring process stability</title>
@@ -55,7 +62,7 @@
       <link>http://localhost:1313/experience/data-scientist-at-optit/</link>
       <pubDate>Mon, 01 Dec 2008 00:00:00 +0100</pubDate>
       <guid>http://localhost:1313/experience/data-scientist-at-optit/</guid>
-      <description>&lt;h3 id=&#34;data-scientist-at-optit-srl&#34;&gt;Data Scientist at OPTIT S.r.l.&lt;/h3&gt;&#xA;&lt;p&gt;I joined OPTIT S.r.l. as a Data Scientist to leverage my statistical expertise in solving complex, real-world problems. Part of my has focused on implementing data science solutions for energy forecasting and anomaly detection. Furthermore, I&amp;rsquo;m developing a novel routing algorithm for the periodic constrained multiple vehicle routing problem. Through these projects, I had the chance to deliver innovative data-driven solutions in logistics and supply chain optimization.&lt;/p&gt;</description>
+      <description>&lt;h3 id=&#34;data-scientist-at-optit-srl&#34;&gt;Data Scientist at OPTIT S.r.l.&lt;/h3&gt;&#xA;&lt;p&gt;I joined OPTIT S.r.l. as a Data Scientist to leverage my statistical expertise in solving complex, real-world problems. Part of my workload has focused on implementing data-driven solutions for energy forecasting and anomaly detection. The remaining part was dedicated to research and development on novel algorithms for the periodic multiple vehicle routing problem, both in single- as well as in multi-frequency pickup pattenrs.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Ph.D. Student</title>
