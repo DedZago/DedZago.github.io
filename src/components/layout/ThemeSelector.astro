@@ -1,0 +1,47 @@
+---
+const themes = [
+  { name: 'light', label: 'Light' },
+  { name: 'dark', label: 'Dark' },
+  { name: 'synthwave', label: 'Synthwave' },
+  { name: 'retro', label: 'Retro' },
+  { name: 'valentine', label: 'Valentine' },
+  { name: 'dim', label: 'Dim' },
+];
+---
+
+<div class="dropdown dropdown-end">
+  <label tabindex="0" class="btn btn-ghost btn-circle">
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01" />
+    </svg>
+  </label>
+  <ul tabindex="0" class="dropdown-content z-[1] menu p-2 shadow-lg bg-base-100 rounded-box w-52 max-h-80 overflow-y-auto">
+    {themes.map((theme) => (
+      <li>
+        <button
+          class="theme-btn flex items-center gap-3"
+          data-theme={theme.name}
+        >
+          <div class="flex gap-1">
+            <span class="w-2 h-4 rounded bg-primary" data-theme={theme.name}></span>
+            <span class="w-2 h-4 rounded bg-secondary" data-theme={theme.name}></span>
+            <span class="w-2 h-4 rounded bg-accent" data-theme={theme.name}></span>
+          </div>
+          {theme.label}
+        </button>
+      </li>
+    ))}
+  </ul>
+</div>
+
+<script>
+  document.querySelectorAll('.theme-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const theme = btn.getAttribute('data-theme');
+      if (theme) {
+        document.documentElement.setAttribute('data-theme', theme);
+        localStorage.setItem('theme', theme);
+      }
+    });
+  });
+</script>

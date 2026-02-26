@@ -1,0 +1,55 @@
+---
+import { Image } from 'astro:assets';
+import { getEntry } from 'astro:content';
+import SocialLinks from '@/components/common/SocialLinks.astro';
+import CVDownloadButton from '@/components/common/CVDownloadButton.astro';
+
+const about = await getEntry('about', 'index');
+const { name, title, subtitle, bio, profileImage, email, socialLinks } = about.data;
+---
+
+<section id="about-me" class="hero min-h-[80vh] bg-base-200">
+  <div class="hero-content flex-col lg:flex-row-reverse gap-8 lg:gap-16 max-w-6xl mx-auto px-4">
+    <!-- Profile Image -->
+    <div class="flex-shrink-0">
+      <Image
+        src={profileImage}
+        alt={name}
+        width={400}
+        height={400}
+        class="rounded-xl shadow-2xl max-w-xs lg:max-w-sm"
+        loading="eager"
+        format="webp"
+      />
+    </div>
+
+    <!-- Text Content -->
+    <div class="text-center lg:text-left">
+      <h1 class="text-4xl lg:text-5xl font-bold" transition:name="hero-name">
+        {name}
+      </h1>
+      <p class="text-xl lg:text-2xl text-primary mt-2">
+        {title}
+      </p>
+      {subtitle && (
+        <p class="text-lg text-base-content/70 mt-2">
+          {subtitle}
+        </p>
+      )}
+      <div class="mt-6 prose prose-lg max-w-none" set:html={bio} />
+
+      <!-- Action Buttons -->
+      <div class="mt-8 flex flex-wrap gap-4 justify-center lg:justify-start">
+        <a href={`mailto:${email}`} class="btn btn-primary">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+            <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+          </svg>
+          Contact
+        </a>
+        <CVDownloadButton />
+        <SocialLinks links={socialLinks} />
+      </div>
+    </div>
+  </div>
+</section>

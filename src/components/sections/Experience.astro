@@ -1,0 +1,78 @@
+---
+import { getCollection } from 'astro:content';
+import { render } from 'astro:content';
+import Modal from '@/components/common/Modal.astro';
+
+const experience = await getCollection('experience');
+const sortedExperience = experience.sort((a, b) => a.data.order - b.data.order);
+
+const formatDateRange = (start: string, end?: string) => {
+  return end ? `${start} — ${end}` : `${start} — present`;
+};
+---
+
+<section id="experience" class="py-16 px-4">
+  <div class="max-w-4xl mx-auto">
+    <h2 class="text-3xl font-bold text-center mb-4">Experience</h2>
+    <p class="text-center text-base-content/70 mb-12 max-w-2xl mx-auto">
+      Experienced in mathematical optimization, machine learning, and statistical computing, with applications in operations research and industrial statistics.
+    </p>
+
+    <!-- Timeline -->
+    <div class="relative">
+      <!-- Timeline line -->
+      <div class="absolute left-4 sm:left-1/2 transform sm:-translate-x-px top-0 bottom-0 w-0.5 bg-base-300"></div>
+
+      {sortedExperience.map(async (exp, index) => {
+        const { Content } = await render(exp);
+        const modalId = `modal-experience-${index}`;
+        return (
+          <>
+            <div class={`relative flex items-start mb-8 ${index % 2 === 0 ? 'sm:flex-row-reverse' : ''}`}>
+              <!-- Timeline dot -->
+              <div class="absolute left-4 sm:left-1/2 transform -translate-x-1/2 w-4 h-4 bg-primary rounded-full border-4 border-base-100 z-10"></div>
+
+              <!-- Content card -->
+              <div class={`ml-12 sm:ml-0 sm:w-5/12 ${index % 2 === 0 ? 'sm:mr-auto sm:pr-8' : 'sm:ml-auto sm:pl-8'}`}>
+                <div class="card bg-base-100 shadow-md hover:shadow-lg transition-shadow">
+                  <div class="card-body py-4">
+                    <div class="badge badge-primary badge-sm mb-2">
+                      {formatDateRange(exp.data.startDate, exp.data.endDate)}
+                    </div>
+                    <h3 class="card-title text-lg">{exp.data.title}</h3>
+                    <p class="text-primary font-medium text-sm">{exp.data.company}</p>
+                    <p class="text-sm text-base-content/60">{exp.data.location}</p>
+                    {exp.data.summary && (
+                      <p class="mt-3 text-sm text-base-content/80">{exp.data.summary}</p>
+                    )}
+                    {exp.body && (
+                      <div class="card-actions justify-end mt-3">
+                        <button
+                          onclick={`document.getElementById('${modalId}').showModal()`}
+                          class="btn btn-sm btn-primary"
+                        >
+                          Read more
+                        </button>
+                      </div>
+                    )}
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Modal for full description */}
+            <Modal
+              id={modalId}
+              title={exp.data.title}
+              company={exp.data.company}
+              location={exp.data.location}
+              dateRange={formatDateRange(exp.data.startDate, exp.data.endDate)}
+            >
+              <Content />
+            </Modal>
+          </>
+        );
+      })}
+    </div>
+  </div>
+</section>

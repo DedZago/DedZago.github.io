@@ -1,0 +1,110 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+/*
+If you want use the ThemeToggle component,
+and chose the themes to light and dard,
+move the --default and --prefersdark to the themes you want
+and then update the the darkThemeName and lightThemeName
+variables on ThemeToggle component with the new theme names.
+The name should be the same as the theme name below.
+*/
+@plugin "daisyui" {
+  themes:
+    light --default,
+    dark --prefersdark,
+    synthwave,
+    retro,
+    valentine,
+    dim;
+}
+
+/* Custom base styles */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* Smooth theme transitions */
+  html,
+  html * {
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  }
+}
+
+/* Custom component styles */
+@layer components {
+  /* Card hover effects */
+  .card {
+    @apply transition-all duration-300;
+  }
+
+  /* Section spacing consistency */
+  section {
+    @apply scroll-mt-20;
+  }
+
+  /* Badge status colors */
+  .badge-success {
+    @apply bg-success/20 text-success border-success/30;
+  }
+
+  .badge-warning {
+    @apply bg-warning/20 text-warning border-warning/30;
+  }
+
+  .badge-info {
+    @apply bg-info/20 text-info border-info/30;
+  }
+}
+
+/* View transition customizations */
+@layer utilities {
+  ::view-transition-old(root),
+  ::view-transition-new(root) {
+    animation-duration: 0.3s;
+  }
+}
+
+/* Subtle fade transition (default) */
+::view-transition-old(root) {
+  animation: fade-out 0.2s ease-out;
+}
+
+::view-transition-new(root) {
+  animation: fade-in 0.3s ease-in;
+}
+
+@keyframes fade-out {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Named transitions for specific elements */
+::view-transition-old(hero-name),
+::view-transition-new(hero-name) {
+  animation-duration: 0.4s;
+}
+
+/* Reduce motion for accessibility */
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-old(root),
+  ::view-transition-new(root) {
+    animation: none;
+  }
+}
+
+/* Print styles */
+@media print {
+  header, footer, nav {
+    display: none !important;
+  }
+
+  section {
+    break-inside: avoid;
+  }
+}

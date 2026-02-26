@@ -1,0 +1,61 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="404 - Page Not Found"
+  description="The page you're looking for doesn't exist."
+>
+  <div class="min-h-screen flex items-center justify-center px-4 py-20">
+    <div class="text-center max-w-2xl mx-auto">
+      <!-- Large 404 Number -->
+      <h1 class="text-9xl font-bold text-primary mb-4 animate-pulse">404</h1>
+
+      <!-- Error Title -->
+      <h2 class="text-4xl font-bold mb-4">Page Not Found</h2>
+
+      <!-- Error Description -->
+      <p class="text-xl mb-8 text-base-content/70">
+        Oops! The page you're looking for doesn't exist or has been moved. Let's
+        get you back on track.
+      </p>
+
+      <!-- Divider -->
+      <div class="divider"></div>
+
+      <!-- Action Buttons -->
+      <div class="flex gap-4 justify-center flex-wrap mt-8">
+        <a href="/" class="btn btn-primary gap-2">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+          </svg>
+          Go Home
+        </a>
+        <a href="/publications" class="btn btn-outline gap-2">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4z" clip-rule="evenodd" />
+          </svg>
+          View Publications
+        </a>
+      </div>
+
+      <!-- Helpful Links -->
+      <div class="mt-12">
+        <p class="text-sm text-base-content/60 mb-4">
+          You might be looking for:
+        </p>
+        <div class="flex gap-3 justify-center flex-wrap text-sm">
+          <a href="/#about-me" class="link link-hover">About</a>
+          <span class="text-base-content/30">•</span>
+          <a href="/#education" class="link link-hover">Education</a>
+          <span class="text-base-content/30">•</span>
+          <a href="/#experience" class="link link-hover">Experience</a>
+          <span class="text-base-content/30">•</span>
+          <a href="/#publications" class="link link-hover">Publications</a>
+          <span class="text-base-content/30">•</span>
+          <a href="/#software" class="link link-hover">Software</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</BaseLayout>

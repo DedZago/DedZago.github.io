@@ -1,0 +1,35 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Hero from '@/components/sections/Hero.astro';
+import Education from '@/components/sections/Education.astro';
+import Experience from '@/components/sections/Experience.astro';
+import Publications from '@/components/sections/Publications.astro';
+import Software from '@/components/sections/Software.astro';
+import Presentations from '@/components/sections/Presentations.astro';
+import { getEntry } from 'astro:content';
+
+// Get section visibility settings
+const general = await getEntry('general', 'index');
+const sectionVisibility = general?.data.sectionVisibility || {
+  education: true,
+  experience: true,
+  publications: true,
+  software: true,
+  presentations: true,
+};
+
+const about = await getEntry('about', 'index');
+const pageDescription = `${about.data.title} - ${about.data.subtitle || 'Data Scientist & Statistical Researcher'}`;
+---
+
+<BaseLayout title="Home" description={pageDescription}>
+  <Hero />
+
+  {sectionVisibility.education && <Education />}
+
+  {sectionVisibility.experience && <Experience />}
+
+  {(sectionVisibility.publications || sectionVisibility.software) && <Publications />}
+
+  {sectionVisibility.presentations && <Presentations />}
+</BaseLayout>

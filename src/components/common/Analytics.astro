@@ -1,0 +1,18 @@
+---
+// Simple Analytics integration - disabled by default
+// To enable: set PUBLIC_SIMPLE_ANALYTICS_ENABLED=true in .env
+const enabled = import.meta.env.PUBLIC_SIMPLE_ANALYTICS_ENABLED === 'true';
+---
+
+{enabled && (
+  <>
+    <script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+    <noscript>
+      <img
+        src="https://queue.simpleanalyticscdn.com/noscript.gif"
+        alt=""
+        referrerpolicy="no-referrer-when-downgrade"
+      />
+    </noscript>
+  </>
+)}

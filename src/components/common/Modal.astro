@@ -1,0 +1,42 @@
+---
+interface Props {
+  id: string;
+  title: string;
+  company: string;
+  location: string;
+  dateRange: string;
+}
+
+const { id, title, company, location, dateRange } = Astro.props;
+---
+
+<dialog id={id} class="modal modal-bottom sm:modal-middle">
+  <div class="modal-box max-w-3xl">
+    <form method="dialog">
+      <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+    </form>
+    <h3 class="font-bold text-2xl mb-2">{title}</h3>
+    <p class="text-primary font-medium text-lg">{company}</p>
+    <p class="text-sm text-base-content/60 mb-1">{location}</p>
+    <div class="badge badge-primary badge-sm mb-4">{dateRange}</div>
+    <div class="prose prose-sm max-w-none mt-4">
+      <slot />
+    </div>
+  </div>
+  <form method="dialog" class="modal-backdrop">
+    <button>close</button>
+  </form>
+</dialog>
+
+<style>
+  /* Ensure modal backdrop is visible and darkens background */
+  .modal-backdrop {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  /* Custom styling for modal box */
+  .modal-box {
+    max-height: 85vh;
+    overflow-y: auto;
+  }
+</style>

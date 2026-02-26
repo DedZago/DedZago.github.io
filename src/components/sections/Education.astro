@@ -1,0 +1,76 @@
+---
+import { getCollection } from 'astro:content';
+import { render } from 'astro:content';
+
+const education = await getCollection('education');
+const sortedEducation = education.sort((a, b) => a.data.order - b.data.order);
+
+const formatDateRange = (start: string, end?: string) => {
+  return end ? `${start} — ${end}` : start;
+};
+---
+
+<section id="education" class="py-16 px-4 bg-base-200">
+  <div class="max-w-4xl mx-auto">
+    <h2 class="text-3xl font-bold text-center mb-12">Education</h2>
+
+    <div class="space-y-4">
+      {sortedEducation.map(async (edu, index) => {
+        const { Content } = await render(edu);
+        const hasDetails = edu.body && edu.body.trim().length > 0;
+        return (
+          <div
+            class={`collapse collapse-arrow bg-base-100 shadow-md ${hasDetails ? 'cursor-pointer hover:shadow-lg transition-all duration-200' : ''}`}
+            data-education-item={hasDetails ? 'expandable' : 'static'}
+          >
+            <input type="checkbox" class={hasDetails ? '' : 'hidden'} />
+            <div class="collapse-title px-6 py-4 pr-12">
+              <div class="flex flex-col gap-2">
+                <div class="flex items-start justify-between gap-4">
+                  <h3 class="font-bold text-lg flex-1">{edu.data.institution}</h3>
+                  <div class="badge badge-outline badge-sm shrink-0">
+                    {formatDateRange(edu.data.startDate, edu.data.endDate)}
+                  </div>
+                </div>
+                <div>
+                  <p class="text-primary font-medium text-base">{edu.data.degree}</p>
+                  {edu.data.field && (
+                    <p class="text-sm text-base-content/70">{edu.data.field}</p>
+                  )}
+                  {edu.data.location && (
+                    <p class="text-sm text-base-content/60">{edu.data.location}</p>
+                  )}
+                </div>
+              </div>
+            </div>
+            {hasDetails && (
+              <div class="collapse-content">
+                <div class="prose prose-sm max-w-none pt-2">
+                  <Content />
+                </div>
+              </div>
+            )}
+          </div>
+        );
+      })}
+    </div>
+  </div>
+</section>
+
+<style>
+  /* Remove arrow for items without expandable content */
+  [data-education-item="static"].collapse-arrow:not(.collapse-open)::before,
+  [data-education-item="static"].collapse-arrow.collapse-open::before {
+    display: none;
+  }
+
+  /* Enhanced hover effect for expandable items */
+  [data-education-item="expandable"].collapse:hover {
+    transform: translateY(-2px);
+  }
+
+  /* Ensure proper cursor only for expandable items */
+  [data-education-item="static"] {
+    cursor: default !important;
+  }
+</style>

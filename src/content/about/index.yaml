@@ -1,0 +1,17 @@
+name: "Daniele Zago"
+title: "Data & Decision Scientist"
+subtitle: "Data Scientist @OPTIT S.r.l., Bologna"
+bio: |
+  Research-oriented data and decision scientist bridging <strong>statistics</strong>, <strong>machine learning</strong>, and <strong>mathematical optimization</strong>. I design and implement end-to-end solutions spanning stochastic optimization algorithms, ML models, and production software on enterprise stacks, with a track record in both academic research and industrial deployment.
+profileImage: "@assets/images/profile/user-picture.png"
+email: "zagodaniele.9@gmail.com"
+location: "Bologna, Italy"
+socialLinks:
+  linkedin: "https://www.linkedin.com/in/daniele-zago/"
+  github: "https://github.com/DedZago"
+  googleScholar: ""
+  orcid: ""
+  researchGate: ""
+cvLinks:
+  english: "/pdf/zago_cv_english.pdf"
+  italian: "/pdf/zago_cv_italian.pdf"

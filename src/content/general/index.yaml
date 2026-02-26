@@ -1,0 +1,8 @@
+enableThemeSelector: true
+sectionVisibility:
+  education: true
+  experience: true
+  publications: true
+  software: true
+  presentations: true
+  contact: true

@@ -1,0 +1,87 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import { Image } from 'astro:assets';
+import { render } from 'astro:content';
+
+const publications = await getCollection('publications');
+const sortedPublications = publications.sort((a, b) => {
+  // Sort by order first, then by date (newest first)
+  if (a.data.order !== b.data.order) return a.data.order - b.data.order;
+  return b.data.date.getTime() - a.data.date.getTime();
+});
+
+const statusLabels = {
+  'published': { text: 'Published', class: 'badge-success' },
+  'submitted': { text: 'Submitted', class: 'badge-warning' },
+  'in-preparation': { text: 'In Preparation', class: 'badge-info' },
+};
+---
+
+<BaseLayout
+  title="Publications"
+  description="Research articles in statistical sciences, process monitoring, and stochastic optimization"
+>
+  <div class="container mx-auto px-4 py-16 max-w-6xl">
+    <div class="text-center mb-12">
+      <h1 class="text-4xl font-bold mb-4">Publications</h1>
+      <p class="text-xl text-base-content/70 max-w-2xl mx-auto">
+        Research articles in statistical sciences, process monitoring, and stochastic optimization.
+      </p>
+    </div>
+
+    <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+      {sortedPublications.map(async (pub) => {
+        const { Content } = await render(pub);
+        return (
+          <div class="card bg-base-100 shadow-xl hover:shadow-2xl transition-shadow duration-300">
+            {pub.data.image && (
+              <figure class="px-4 pt-4">
+                <Image
+                  src={pub.data.image}
+                  alt={pub.data.title}
+                  width={400}
+                  height={250}
+                  class="rounded-xl object-cover h-48 w-full"
+                  format="webp"
+                />
+              </figure>
+            )}
+            <div class="card-body">
+              <h2 class="card-title text-lg">
+                {pub.data.title}
+                <span class={`badge ${statusLabels[pub.data.status].class} badge-sm`}>
+                  {statusLabels[pub.data.status].text}
+                </span>
+              </h2>
+              {pub.data.journal && (
+                <p class="text-sm text-primary italic">{pub.data.journal}</p>
+              )}
+              <div class="text-sm text-base-content/70 line-clamp-3">
+                <Content />
+              </div>
+              <div class="card-actions justify-end mt-4">
+                {pub.data.url && (
+                  <a
+                    href={pub.data.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn btn-primary btn-sm"
+                  >
+                    View Article
+                  </a>
+                )}
+              </div>
+            </div>
+          </div>
+        );
+      })}
+    </div>
+
+    <div class="text-center mt-12">
+      <a href="/" class="btn btn-outline">
+        ← Back to Home
+      </a>
+    </div>
+  </div>
+</BaseLayout>

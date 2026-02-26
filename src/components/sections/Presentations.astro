@@ -1,0 +1,69 @@
+---
+import { getCollection } from 'astro:content';
+
+const presentations = await getCollection('presentations');
+const sortedPresentations = presentations.sort((a, b) => {
+  // Sort by date (newest first)
+  return b.data.date.getTime() - a.data.date.getTime();
+});
+
+const typeLabels = {
+  'invited-talk': { text: 'Invited Talk', class: 'badge-primary' },
+  'invited-seminar': { text: 'Invited Seminar', class: 'badge-secondary' },
+  'poster': { text: 'Poster', class: 'badge-accent' },
+  'workshop': { text: 'Workshop', class: 'badge-info' },
+};
+
+// Format date as "Mon YYYY"
+const formatDate = (date: Date) => {
+  return date.toLocaleDateString('en-US', { month: 'short', year: 'numeric' });
+};
+---
+
+<section id="presentations" class="py-16 px-4">
+  <div class="max-w-4xl mx-auto">
+    <h2 class="text-3xl font-bold text-center mb-4">Conference Presentations</h2>
+    <p class="text-center text-base-content/70 mb-12 max-w-2xl mx-auto">
+      Selected presentations on stochastic optimization, statistical process monitoring, and decision sciences.
+    </p>
+
+    <div class="space-y-4">
+      {sortedPresentations.map((pres) => (
+        <div class="card bg-base-100 shadow-md hover:shadow-lg transition-shadow">
+          <div class="card-body py-4">
+            <div class="flex flex-wrap items-start gap-4">
+              <!-- Date -->
+              <div class="text-sm font-mono text-base-content/60 w-20 shrink-0">
+                {formatDate(pres.data.date)}
+              </div>
+
+              <!-- Content -->
+              <div class="flex-1 min-w-0">
+                <h3 class="font-semibold text-lg leading-tight">
+                  {pres.data.title}
+                </h3>
+                <p class="text-sm text-base-content/70 mt-1">
+                  {pres.data.venue}
+                  {pres.data.location && `, ${pres.data.location}`}
+                </p>
+              </div>
+
+              <!-- Type Badge -->
+              <span class={`badge ${typeLabels[pres.data.type].class} shrink-0`}>
+                {typeLabels[pres.data.type].text}
+              </span>
+
+              <!-- Slides Link (if available) -->
+              {pres.data.slidesUrl && (
+                <a href={pres.data.slidesUrl} target="_blank" rel="noopener noreferrer"
+                   class="btn btn-ghost btn-sm">
+                  Slides
+                </a>
+              )}
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
