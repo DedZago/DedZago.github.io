@@ -3,7 +3,7 @@ import { getEntry } from 'astro:content';
 import SocialLinks from '@/components/common/SocialLinks.astro';
 
 const about = await getEntry('about', 'index');
-const { socialLinks } = about.data;
+const { socialLinks, title } = about.data;
 ---
 
 <footer class="footer footer-center p-10 bg-base-200 text-base-content">
@@ -11,7 +11,7 @@ const { socialLinks } = about.data;
     <p class="font-bold text-lg">
       Daniele Zago
     </p>
-    <p>Data Scientist & Statistical Researcher</p>
+    <p>{title}</p>
     <p class="text-sm text-base-content/70">
       © {new Date().getFullYear()} - Built with Astro
     </p>

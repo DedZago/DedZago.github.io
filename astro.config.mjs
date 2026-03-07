@@ -25,6 +25,9 @@ export default defineConfig({
     optimizeDeps: {
       include: ["@keystatic/core", "@keystatic/astro"],
     },
+    build: {
+      target: "es2022",
+    },
   },
 
   image: {

@@ -108,3 +108,21 @@ The name should be the same as the theme name below.
     break-inside: avoid;
   }
 }
+
+/* MapLibre overrides — prevent global transitions from affecting marker positioning */
+.maplibregl-marker,
+.maplibregl-canvas-container,
+.maplibregl-canvas {
+  transition: none !important;
+}
+
+/* Map component styles */
+.presentation-card-highlight {
+  animation: card-pulse 1.5s ease-in-out infinite;
+  border-color: hsl(var(--p));
+}
+
+@keyframes card-pulse {
+  0%, 100% { box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1); }
+  50% { box-shadow: 0 0 0 4px hsl(var(--p) / 0.3); }
+}

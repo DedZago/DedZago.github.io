@@ -1,5 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
+import MapComponent from '@/components/map/MapComponent.astro';
+import { ALL_PINS } from '@/lib/locationData';
 
 const presentations = await getCollection('presentations');
 const sortedPresentations = presentations.sort((a, b) => {
@@ -21,49 +23,88 @@ const formatDate = (date: Date) => {
 ---
 
 <section id="presentations" class="py-16 px-4">
-  <div class="max-w-4xl mx-auto">
+  <div class="max-w-7xl mx-auto">
     <h2 class="text-3xl font-bold text-center mb-4">Conference Presentations</h2>
-    <p class="text-center text-base-content/70 mb-12 max-w-2xl mx-auto">
+    <p class="text-center text-base-content/70 mb-8 max-w-2xl mx-auto">
       Selected presentations on stochastic optimization, statistical process monitoring, and decision sciences.
     </p>
 
-    <div class="space-y-4">
-      {sortedPresentations.map((pres) => (
-        <div class="card bg-base-100 shadow-md hover:shadow-lg transition-shadow">
-          <div class="card-body py-4">
-            <div class="flex flex-wrap items-start gap-4">
-              <!-- Date -->
-              <div class="text-sm font-mono text-base-content/60 w-20 shrink-0">
-                {formatDate(pres.data.date)}
+    <div class="grid lg:grid-cols-2 gap-8 items-start">
+      <!-- Presentations List -->
+      <div class="space-y-4 order-2 lg:order-1">
+        {sortedPresentations.map((pres) => (
+          <div
+            data-content-id={pres.id}
+            class="card bg-base-100 shadow-md hover:shadow-lg transition-all cursor-pointer"
+          >
+            <div class="card-body py-4">
+              <div class="flex flex-wrap items-start gap-4">
+                <!-- Date -->
+                <div class="text-sm font-mono text-base-content/60 w-20 shrink-0">
+                  {formatDate(pres.data.date)}
+                </div>
+
+                <!-- Content -->
+                <div class="flex-1 min-w-0">
+                  <h3 class="font-semibold text-lg leading-tight">
+                    {pres.data.title}
+                  </h3>
+                  <p class="text-sm text-base-content/70 mt-1">
+                    {pres.data.venue}
+                    {pres.data.location && `, ${pres.data.location}`}
+                  </p>
+                </div>
+
+                <!-- Type Badge -->
+                <span class={`badge ${typeLabels[pres.data.type].class} shrink-0`}>
+                  {typeLabels[pres.data.type].text}
+                </span>
+
+                <!-- Slides Link (if available) -->
+                {pres.data.slidesUrl && (
+                  <a href={pres.data.slidesUrl} target="_blank" rel="noopener noreferrer"
+                     class="btn btn-ghost btn-sm">
+                    Slides
+                  </a>
+                )}
+
+                <!-- View on Map Button -->
+                <button class="btn btn-ghost btn-sm btn-square" aria-label="View on map" data-show-on-map={pres.id}>
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                  </svg>
+                </button>
               </div>
-
-              <!-- Content -->
-              <div class="flex-1 min-w-0">
-                <h3 class="font-semibold text-lg leading-tight">
-                  {pres.data.title}
-                </h3>
-                <p class="text-sm text-base-content/70 mt-1">
-                  {pres.data.venue}
-                  {pres.data.location && `, ${pres.data.location}`}
-                </p>
-              </div>
-
-              <!-- Type Badge -->
-              <span class={`badge ${typeLabels[pres.data.type].class} shrink-0`}>
-                {typeLabels[pres.data.type].text}
-              </span>
-
-              <!-- Slides Link (if available) -->
-              {pres.data.slidesUrl && (
-                <a href={pres.data.slidesUrl} target="_blank" rel="noopener noreferrer"
-                   class="btn btn-ghost btn-sm">
-                  Slides
-                </a>
-              )}
             </div>
           </div>
+        ))}
+      </div>
+
+      <!-- Interactive Map -->
+      <div class="lg:sticky lg:top-8 order-1 lg:order-2">
+        <div class="card bg-base-100 shadow-lg overflow-hidden">
+          <div class="card-body p-0">
+            <MapComponent pins={ALL_PINS} />
+          </div>
         </div>
-      ))}
+      </div>
     </div>
   </div>
 </section>
+
+<script>
+  document.querySelectorAll('[data-show-on-map]').forEach((btn) => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const id = (e.currentTarget as HTMLElement).dataset.showOnMap;
+      if (id && window.mapPins && window.locationMap) {
+        const pin = window.mapPins.find((p) => p.contentId === id);
+        if (pin) {
+          window.locationMap.flyTo(pin.coordinates[0], pin.coordinates[1], 8);
+          window.locationMap.highlightPin(pin.id);
+        }
+      }
+    });
+  });
+</script>
