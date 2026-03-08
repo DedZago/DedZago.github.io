@@ -34,7 +34,10 @@ const formatDateRange = (start: string, end?: string) => {
 
               <!-- Content card -->
               <div class={`ml-12 sm:ml-0 sm:w-5/12 ${index % 2 === 0 ? 'sm:mr-auto sm:pr-8' : 'sm:ml-auto sm:pl-8'}`}>
-                <div class="card bg-base-100 shadow-md hover:shadow-lg transition-shadow">
+                <div
+                  class="card bg-base-100 shadow-md hover:shadow-lg transition-shadow cursor-pointer"
+                  onclick={`document.getElementById('${modalId}').showModal()`}
+                >
                   <div class="card-body py-4">
                     <div class="badge badge-primary badge-sm mb-2">
                       {formatDateRange(exp.data.startDate, exp.data.endDate)}
@@ -48,7 +51,8 @@ const formatDateRange = (start: string, end?: string) => {
                     {exp.body && (
                       <div class="card-actions justify-end mt-3">
                         <button
-                          onclick={`document.getElementById('${modalId}').showModal()`}
+                          onclick="event.stopPropagation(); document.getElementById(this.getAttribute('data-modal-id')!).showModal()"
+                          data-modal-id={modalId}
                           class="btn btn-sm btn-primary"
                         >
                           Read more
