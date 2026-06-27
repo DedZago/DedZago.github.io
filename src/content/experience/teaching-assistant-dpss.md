@@ -2,8 +2,8 @@
 title: "Teaching Assistant"
 company: "University of Padua - Dept. of Developmental Psychology"
 location: "Padova, Italy"
-startDate: "2022-10"
-endDate: "2022-12"
+startDate: "2022"
+endDate: "2022"
 order: 4
 summary: "Lectures on factor models and questionnaire analysis, laboratory sessions on R programming for psychology students."
 ---

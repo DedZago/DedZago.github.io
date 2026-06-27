@@ -2,8 +2,8 @@
 title: "Statistical Consultant"
 company: "Expin S.r.l."
 location: "Padova, Italy"
-startDate: "2023-07"
-endDate: "2023-10"
+startDate: "2023"
+endDate: "2023"
 order: 3
 summary: "Development of sequential monitoring systems and optimal alarm threshold algorithms for structural health monitoring."
 ---

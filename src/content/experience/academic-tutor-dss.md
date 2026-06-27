@@ -2,8 +2,8 @@
 title: "Academic Tutor"
 company: "University of Padua - Dept. of Statistical Sciences"
 location: "Padova, Italy"
-startDate: "2017-09"
-endDate: "2019-01"
+startDate: "2017"
+endDate: "2019"
 order: 5
 summary: "Calculus lessons and interactive workshops for undergraduate statistics students in preparation for final exams."
 ---
