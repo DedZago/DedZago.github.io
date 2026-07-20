@@ -8,6 +8,9 @@ export const KNOWN_LOCATIONS: Record<string, [number, number]> = {
   'Perugia, Italy': [12.3925, 43.1107],
   'Bertinoro, Italy': [11.9500, 44.1333],
 
+  // Belgium
+  'Ghent, Belgium': [3.7174, 51.0543],
+
   // Greece
   'Piraeus, Greece': [23.6473, 37.9425],
 
@@ -139,6 +142,17 @@ export const EDUCATION_PINS: LocationPin[] = [
 
 // Work pins
 export const WORK_PINS: LocationPin[] = [
+  {
+    id: 'work-timefold',
+    type: 'work',
+    title: 'Algorithm Engineer',
+    date: '2026-09-01',
+    location: 'Ghent, Belgium',
+    coordinates: KNOWN_LOCATIONS['Ghent, Belgium'],
+    contentId: 'algorithm-engineer-timefold',
+    label: 'Ghent',
+    company: 'Timefold',
+  },
   {
     id: 'work-optit',
     type: 'work',

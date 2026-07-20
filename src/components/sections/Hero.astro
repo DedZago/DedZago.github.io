@@ -8,8 +8,8 @@ const about = await getEntry('about', 'index');
 const { name, title, subtitle, bio, profileImage, email, socialLinks } = about.data;
 ---
 
-<section id="about-me" class="hero min-h-[80vh] bg-base-200">
-  <div class="hero-content flex-col lg:flex-row-reverse gap-8 lg:gap-16 max-w-6xl mx-auto px-4">
+<section id="about-me" class="hero bg-base-100 px-4 py-10 sm:py-12 lg:py-16">
+  <div class="hero-content flex-col lg:flex-row-reverse gap-8 lg:gap-12 max-w-6xl mx-auto p-0">
     <!-- Profile Image -->
     <div class="flex-shrink-0">
       <Image
@@ -17,7 +17,7 @@ const { name, title, subtitle, bio, profileImage, email, socialLinks } = about.d
         alt={name}
         width={400}
         height={400}
-        class="rounded-xl shadow-2xl max-w-xs lg:max-w-sm"
+        class="rounded-xl shadow-xl w-52 sm:w-64 lg:w-72 xl:w-80"
         loading="eager"
         fetchpriority="high"
         format="webp"
@@ -26,7 +26,7 @@ const { name, title, subtitle, bio, profileImage, email, socialLinks } = about.d
 
     <!-- Text Content -->
     <div class="text-center lg:text-left">
-      <h1 class="text-4xl lg:text-5xl font-bold" transition:name="hero-name">
+      <h1 class="text-4xl lg:text-5xl font-bold leading-tight" transition:name="hero-name">
         {name}
       </h1>
       <p class="text-xl lg:text-2xl text-primary mt-2">
@@ -37,11 +37,11 @@ const { name, title, subtitle, bio, profileImage, email, socialLinks } = about.d
           {subtitle}
         </p>
       )}
-      <div class="mt-6 prose prose-lg max-w-none" set:html={bio} />
+      <div class="mt-4 prose prose-base lg:prose-lg max-w-2xl" set:html={bio} />
 
       <!-- Action Buttons -->
-      <div class="mt-8 flex flex-wrap gap-4 justify-center lg:justify-start">
-        <a href={`mailto:${email}`} class="btn btn-primary">
+      <div class="mt-6 flex flex-wrap gap-2 sm:gap-3 justify-center lg:justify-start">
+        <a href={`mailto:${email}`} class="btn btn-primary btn-sm sm:btn-md">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" viewBox="0 0 20 20" fill="currentColor">
             <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
             <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />

@@ -3,7 +3,8 @@ title: "Data Scientist"
 company: "OPTIT S.r.l"
 location: "Bologna, Italy"
 startDate: "2024"
-order: 1
+endDate: "2026"
+order: 2
 summary: "R&D for periodic vehicle routing problems and consultancy in mathematical optimization, energy forecasting, and anomaly detection."
 ---
 

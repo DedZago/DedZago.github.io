@@ -10,4 +10,3 @@ order: 1
 
 - **Advisors**: Prof. Giovanna Capizzi (University of Padua), Prof. Peihua Qiu (University of Florida)
 - **Research topics**: Online outlier detection, stochastic optimization
-- **Research stay**: University of Florida (Jan 2023 - Dec 2023), supervised by Prof. Peihua Qiu

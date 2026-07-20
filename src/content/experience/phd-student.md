@@ -4,7 +4,7 @@ company: "University of Padua"
 location: "Padova, Italy"
 startDate: "2021"
 endDate: "2024"
-order: 2
+order: 3
 summary: "Doctoral research in online outlier detection and stochastic optimization, with publications in top-tier journals and real-world consulting applications."
 ---
 

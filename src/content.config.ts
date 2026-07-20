@@ -40,6 +40,8 @@ const education = defineCollection({
     startDate: z.string(),
     endDate: z.string().optional(),
     order: z.number().default(0),
+    kind: z.enum(["degree", "training"]).default("degree"),
+    parentDegree: z.string().optional(),
   }),
 });
 

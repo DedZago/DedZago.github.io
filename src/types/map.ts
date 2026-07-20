@@ -6,6 +6,7 @@ export interface LocationPin {
   location: string;
   coordinates: [number, number]; // [longitude, latitude]
   contentId: string;
+  label?: string;
   venue?: string;
   institution?: string;
   company?: string;

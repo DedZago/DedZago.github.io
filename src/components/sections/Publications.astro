@@ -28,29 +28,29 @@ const statusLabels = {
 };
 ---
 
-<section id="publications" class="py-16 px-4">
-  <div class="max-w-6xl mx-auto">
+<section id="publications" class="py-12 lg:py-14 px-4 bg-base-200">
+  <div class="max-w-7xl mx-auto">
     <h2 class="text-3xl font-bold text-center mb-4">Publications & Software</h2>
-    <p class="text-center text-base-content/70 mb-12 max-w-2xl mx-auto">
+    <p class="text-center text-base-content/70 mb-8 max-w-2xl mx-auto">
       Research in statistical computing, mathematical optimization, and decision sciences.
     </p>
 
     {/* Software Section */}
     {sortedSoftware.length > 0 && (
-      <div class="mb-16">
-        <h3 class="text-2xl font-bold mb-6">Software</h3>
-        <div class="grid gap-8 md:grid-cols-2">
+      <div class="mb-10">
+        <h3 class="text-xl font-bold mb-4">Software</h3>
+        <div class="grid gap-5 md:grid-cols-2">
           {sortedSoftware.map(async (pkg, index) => {
             const { Content } = await render(pkg);
             const modalId = `modal-software-${index}`;
             return (
               <>
                 <div
-                  class="card bg-base-100 shadow-xl lg:card-side hover:shadow-2xl transition-all duration-300 cursor-pointer hover:-translate-y-1"
+                  class="card min-w-0 max-w-full overflow-hidden bg-base-100 shadow-xl lg:card-side hover:shadow-2xl transition-all duration-300 cursor-pointer hover:-translate-y-1"
                   onclick={`document.getElementById('${modalId}').showModal()`}
                 >
                   {pkg.data.image && (
-                    <figure class="lg:w-1/3">
+                    <figure class="min-w-0 overflow-hidden lg:w-1/3">
                       <Image
                         src={pkg.data.image}
                         alt={pkg.data.title}
@@ -62,9 +62,9 @@ const statusLabels = {
                       />
                     </figure>
                   )}
-                  <div class="card-body lg:w-2/3">
-                    <h4 class="card-title">
-                      {pkg.data.title}
+                  <div class="card-body min-w-0 lg:w-2/3 p-5 gap-2">
+                    <h4 class="card-title min-w-0 flex-wrap">
+                      <span class="software-name">{pkg.data.title}</span>
                       {pkg.data.language && (
                         <span class="badge badge-outline badge-sm">{pkg.data.language}</span>
                       )}
@@ -138,9 +138,9 @@ const statusLabels = {
 
     {/* Published Papers Section */}
     {publishedPapers.length > 0 && (
-      <div class="mb-16">
-        <h3 class="text-2xl font-bold mb-6">Published Articles</h3>
-        <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+      <div class="mb-10">
+        <h3 class="text-xl font-bold mb-4">Published Articles</h3>
+        <div class="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
           {publishedPapers.map(async (pub, index) => {
             const { Content } = await render(pub);
             const modalId = `modal-pub-${index}`;
@@ -151,19 +151,19 @@ const statusLabels = {
                   onclick={`document.getElementById('${modalId}').showModal()`}
                 >
                   {pub.data.image && (
-                    <figure class="px-4 pt-4">
+                    <figure class="px-3 pt-3">
                       <Image
                         src={pub.data.image}
                         alt={pub.data.title}
                         width={800}
                         height={500}
-                        class="rounded-xl object-cover h-48 w-full"
+                        class="rounded-lg object-cover h-36 w-full"
                         format="webp"
                         quality={90}
                       />
                     </figure>
                   )}
-                  <div class="card-body">
+                  <div class="card-body p-5 gap-2">
                     <h4 class="card-title text-lg">
                       {pub.data.title}
                     </h4>
@@ -225,8 +225,8 @@ const statusLabels = {
     {/* Unpublished Papers Section - Enhanced Cards */}
     {unpublishedPapers.length > 0 && (
       <div>
-        <h3 class="text-2xl font-bold mb-6">Under Review & In Preparation</h3>
-        <div class="grid gap-6 md:grid-cols-2">
+        <h3 class="text-xl font-bold mb-4">Under Review & In Preparation</h3>
+        <div class="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
           {unpublishedPapers.map(async (pub, index) => {
             const { Content } = await render(pub);
             const modalId = `modal-unpub-${index}`;
@@ -237,22 +237,22 @@ const statusLabels = {
                   onclick={`document.getElementById('${modalId}').showModal()`}
                 >
                   {pub.data.image && (
-                    <figure class="px-4 pt-4">
+                    <figure class="px-3 pt-3">
                       <Image
                         src={pub.data.image}
                         alt={pub.data.title}
                         width={800}
                         height={500}
-                        class="rounded-xl object-cover h-40 w-full"
+                        class="rounded-lg object-cover h-32 w-full"
                         format="webp"
                         quality={90}
                       />
                     </figure>
                   )}
-                  <div class="card-body">
+                  <div class="card-body p-5 gap-2">
                     <h4 class="card-title text-base">
                       {pub.data.title}
-                      <span class={`badge ${statusLabels[pub.data.status].class} badge-xs`}>
+                      <span class={`badge ${statusLabels[pub.data.status].class} badge-xs shrink-0 whitespace-nowrap`}>
                         {statusLabels[pub.data.status].text}
                       </span>
                     </h4>
@@ -286,7 +286,7 @@ const statusLabels = {
                     )}
                     <h3 class="font-bold text-2xl mb-2">
                       {pub.data.title}
-                      <span class={`badge ${statusLabels[pub.data.status].class} badge-sm ml-2`}>
+                      <span class={`badge ${statusLabels[pub.data.status].class} badge-sm ml-2 shrink-0 whitespace-nowrap`}>
                         {statusLabels[pub.data.status].text}
                       </span>
                     </h3>
@@ -317,3 +317,10 @@ const statusLabels = {
     )}
   </div>
 </section>
+
+<style>
+  .software-name {
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+</style>

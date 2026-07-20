@@ -10,4 +10,4 @@ order: 2
 
 - **Final grade**: 110/110 cum Laude
 - **GPA**: 29.5/30
-- **Thesis topic**: Bayesian nonparametric mixture models
+- **Thesis topic**: Bayesian nonparametric models
