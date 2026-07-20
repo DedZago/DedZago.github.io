@@ -1,7 +1,7 @@
 ---
 title: "Likelihood-ratio monitoring of processes with mixed data"
 date: 2025-08-22
-journal: "Technometrics"
+journal: "Journal of Quality Technology"
 status: in-preparation
 image: "@assets/images/publications/lrt-akde-showcase.png"
 order: 6
