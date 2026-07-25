@@ -35,6 +35,7 @@ export function initMap(container: HTMLElement) {
         properties: {
           count: group.length,
           type: group[0].type,
+          label: group.find((pin: any) => pin.label)?.label || '',
           color: group.length === 1
             ? TYPE_COLORS[group[0].type]
             : (new Set(group.map((p: any) => p.type)).size === 1 ? TYPE_COLORS[group[0].type] : '#8b5cf6'),
@@ -116,6 +117,26 @@ export function initMap(container: HTMLElement) {
         'circle-stroke-color': '#ffffff',
         'circle-stroke-width': 1.5,
         'circle-opacity': 0.92,
+      },
+    });
+
+    map.addLayer({
+      id: 'pins-location-label',
+      type: 'symbol',
+      source: 'pins',
+      filter: ['!=', ['get', 'label'], ''],
+      layout: {
+        'text-field': ['get', 'label'],
+        'text-size': 11,
+        'text-font': ['Open Sans Semibold', 'Arial Unicode MS Regular'],
+        'text-offset': [0, 1.35],
+        'text-anchor': 'top',
+        'text-allow-overlap': true,
+      },
+      paint: {
+        'text-color': '#334155',
+        'text-halo-color': '#ffffff',
+        'text-halo-width': 1.5,
       },
     });
 

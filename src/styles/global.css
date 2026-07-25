@@ -55,6 +55,14 @@ The name should be the same as the theme name below.
   .badge-info {
     @apply bg-info/20 text-info border-info/30;
   }
+
+  .hero-subtitle a {
+    @apply text-primary;
+  }
+
+  .hero-subtitle a:hover {
+    @apply text-primary/80;
+  }
 }
 
 /* View transition customizations */

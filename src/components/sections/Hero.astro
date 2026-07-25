@@ -33,9 +33,7 @@ const { name, title, subtitle, bio, profileImage, email, socialLinks } = about.d
         {title}
       </p>
       {subtitle && (
-        <p class="text-lg text-base-content/70 mt-2">
-          {subtitle}
-        </p>
+        <p class="hero-subtitle text-lg text-base-content/70 mt-2" set:html={subtitle}></p>
       )}
       <div class="mt-4 prose prose-base lg:prose-lg max-w-2xl" set:html={bio} />
 
