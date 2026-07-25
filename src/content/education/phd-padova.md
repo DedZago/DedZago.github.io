@@ -9,4 +9,4 @@ order: 1
 ---
 
 - **Advisors**: Prof. Giovanna Capizzi (University of Padua), Prof. Peihua Qiu (University of Florida)
-- **Research topics**: Online outlier detection, stochastic optimization
+- **Research topics**: Online outlier detection, stochastic constrained optimization
