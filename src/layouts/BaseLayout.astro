@@ -41,6 +41,14 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
     <!-- Simple Analytics placeholder (future) -->
     <!-- <script async defer src="https://sa.dedzago.github.io/latest.js"></script> -->
 
+    <!-- Apply the saved theme before the page is painted. -->
+    <script is:inline>
+      const savedTheme = localStorage.getItem('theme');
+      if (savedTheme) {
+        document.documentElement.setAttribute('data-theme', savedTheme);
+      }
+    </script>
+
     <ViewTransitions />
   </head>
   <body class="min-h-screen flex flex-col">
@@ -50,10 +58,5 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
     </main>
     <Footer />
 
-    <!-- Theme initialization script -->
-    <script is:inline>
-      const theme = localStorage.getItem('theme') || 'light';
-      document.documentElement.setAttribute('data-theme', theme);
-    </script>
   </body>
 </html>

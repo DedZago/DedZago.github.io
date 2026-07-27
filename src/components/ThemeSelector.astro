@@ -38,7 +38,7 @@ const themes = [
 </div>
 
 <script is:inline>
-  // Set theme on page load based on localStorage or system preference
+  // Keep the selected DaisyUI theme stable across Astro view transitions.
   function setTheme() {
     const savedTheme = localStorage.getItem("theme");
     let theme = savedTheme;
@@ -60,19 +60,30 @@ const themes = [
     });
   }
 
-  // Update theme when radio button is changed
-  document.addEventListener("change", (e) => {
-    const target = e.target;
-    if (target.type === "radio" && target.name === "theme") {
-      const theme = target.value;
-      document.documentElement.setAttribute("data-theme", theme);
-      localStorage.setItem("theme", theme);
-    }
-  });
+  // Register the handler once: this component exists in more than one layout.
+  if (!window.__themeSelectorInitialized) {
+    document.addEventListener("change", (e) => {
+      const target = e.target;
+      if (target instanceof HTMLInputElement && target.type === "radio" && target.name === "theme") {
+        const theme = target.value;
+        document.documentElement.setAttribute("data-theme", theme);
+        localStorage.setItem("theme", theme);
+      }
+    });
 
-  // Run on page load
+    // Preserve the current theme while Astro is replacing the document.
+    document.addEventListener("astro:before-swap", (event) => {
+      event.newDocument.documentElement.setAttribute(
+        "data-theme",
+        document.documentElement.getAttribute("data-theme") || "light"
+      );
+    });
+
+    // Astro fires this after both the initial load and client-side navigation.
+    document.addEventListener("astro:page-load", setTheme);
+    window.__themeSelectorInitialized = true;
+  }
+
+  // Also initialize immediately on a normal full-page load.
   setTheme();
-
-  // Run after view transitions
-  document.addEventListener("astro:after-swap", setTheme);
 </script>

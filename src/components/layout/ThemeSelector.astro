@@ -35,13 +35,35 @@ const themes = [
 </div>
 
 <script>
-  document.querySelectorAll('.theme-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-      const theme = btn.getAttribute('data-theme');
-      if (theme) {
-        document.documentElement.setAttribute('data-theme', theme);
-        localStorage.setItem('theme', theme);
-      }
-    });
+  function applySavedTheme() {
+    const theme = localStorage.getItem('theme') || 'light';
+    document.documentElement.setAttribute('data-theme', theme);
+  }
+
+  // Use event delegation because Astro replaces the selector's DOM on navigation.
+  document.addEventListener('click', (event) => {
+    const target = event.target;
+    if (!(target instanceof Element)) return;
+
+    const button = target.closest('.theme-btn');
+    if (!button) return;
+
+    const theme = button.getAttribute('data-theme');
+    if (theme) {
+      document.documentElement.setAttribute('data-theme', theme);
+      localStorage.setItem('theme', theme);
+    }
   });
+
+  // Copy the active theme to the incoming document before Astro swaps it in.
+  document.addEventListener('astro:before-swap', (event) => {
+    const theme =
+      localStorage.getItem('theme') ||
+      document.documentElement.getAttribute('data-theme') ||
+      'light';
+    event.newDocument.documentElement.setAttribute('data-theme', theme);
+  });
+
+  document.addEventListener('astro:page-load', applySavedTheme);
+  applySavedTheme();
 </script>
